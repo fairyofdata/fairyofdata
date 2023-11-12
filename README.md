@@ -22,7 +22,7 @@ I enjoy diving into ML/DL and NLP projects. 🚀
 
 #### Projects 📋
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-  - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/urinaner/voice_phishing)
+  - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
   - 2023.06. [Analysis of correlation between apartment's distance to subway station and average price per area](https://github.com/fairyofdata/Stationarea_houseprice)
   - 2022.09. [Side dish recipe recommendation using food ingredient object recognition based on Yolo v5](https://github.com/fairyofdata/Object_detection_Sidedish)
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
