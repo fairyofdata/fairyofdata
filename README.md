@@ -11,20 +11,20 @@ I enjoy diving into ML/DL and NLP projects. 🚀
 
 #### Tech Stack 💻
   - Languages: Python
-  - Frameworks: PyTorch, TensorFlow, Hugging Face, Django
+  - Frameworks: PyTorch, TensorFlow
   - IDE: Pycharm, Google Colab
 
 #### Projects 📋
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-    - Tools: SQLite, Android Studio(Java, Kotlin)
+    - SQLite, Android Studio(Kotlin)
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Tools: Pandas, Numpy, NLTK, KoNLPy, Mecab, Gradio, Whisper(OPENAI)
+    - Pandas, NLTK, Mecab, KoNLPy, Hugging Face, Gradio
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
-    - Tools: Pandas, Numpy, SQLAlchemy, Matplotlib, Seaborn, Haversine, Geopy, Folium
-  - 2022.09. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
-    - Tools: Numpy, OpenCV, YOLO, imgaug, Albumentations
+    - Numpy, Pandas, Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium
+  - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
+    - OpenCV, YOLO, imgaug, Albumentations
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
-    - Tools: Pandas, Numpy, Selenium, BeautifulSoup, NLTK, Mecab, KoNLPy, Fasttext
+    - Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext
       
 #### Interested Issue
   - TBU
