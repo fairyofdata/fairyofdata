@@ -1,8 +1,6 @@
 ### Hi there! 👋
-
-I'm Baek Jiheon, a passionate developer from South Korea. 
-
-I enjoy diving into ML/DL and NLP projects. 🚀
+  - I'm Baek Jiheon, a passionate developer from South Korea.
+  - I'm interested in NLP, especially NLU, Sentence Classification!
 
 #### Education 📚
   - Department of [**Information Convergence**](https://www.kw.ac.kr/ko/univ/depart_intro.jsp?hpage=college_002_02) Undergraduate Student (Kwangwoon University)
@@ -10,9 +8,12 @@ I enjoy diving into ML/DL and NLP projects. 🚀
   - K-Digital Training: [**Data Science/Engineering** Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
 
 #### Tech Stack 💻
-  - Main Languages: Python, SQL
-  - Frameworks and Libraries: PyTorch, TensorFlow, Hugging Face
-  - IDE: Pycharm, Google Colab
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"> 
+  🤗
+  <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pythoch&logoColor=white">
+  <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=Tensorflow&logoColor=white">
+</p>
 
 #### Projects 📋
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
@@ -28,7 +29,9 @@ I enjoy diving into ML/DL and NLP projects. 🚀
       
 #### Interested Issue
   - BERT and ELECTRA + Bi-GRU Model Performance study
-  - Korean-Japanese bilingual NLP
+  - Morpheme-based tokenizing (KoNLPy,Mecab)
+  - Phoneme-based pronounciation correcting + STT
+  - Syntax-based Korean-Japanese bilingual NLP
 
 Feel free to reach out to me via fairyofdata@gmail.com. 📧
 
