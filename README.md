@@ -19,7 +19,7 @@
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
     - Tools: Python Libraries(SQLite), Android Studio
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Tools: Python Libraries(Pandas, NLTK, Mecab, KoNLPy, Gradio)
+    - Tools: Python Libraries(Pandas, NLTK, Mecab, KoNLPy, Gradio), OPENAI API(Whisper), Django
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
     - Tools: Python Libraries(Numpy, Pandas, Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium)
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
