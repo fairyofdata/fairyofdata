@@ -27,7 +27,8 @@ I enjoy diving into ML/DL and NLP projects. 🚀
     - Tools: Python Libraries(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext)
       
 #### Interested Issue
-  - Hugging Face
+  - BERT and ELECTRA + Bi-GRU Model Performance study
+  - Korean-Japanese bilingual NLP
 
 Feel free to reach out to me via fairyofdata@gmail.com. 📧
 
