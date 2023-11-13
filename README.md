@@ -10,19 +10,13 @@ I enjoy diving into ML/DL and NLP projects. 🚀
   - K-Digital Training: [**Data Science/Engineering** Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
 
 #### Tech Stack 💻
-  - Languages
-  	- Python
-  - Frameworks and Libraries
-    - PyTorch
-   	- TensorFlow
-    - Hugging Face
-  - IDE
-    - Pycharm
-    - Google Colab
+  - Main Languages: Python, SQL
+  - Frameworks and Libraries: PyTorch, TensorFlow, Hugging Face
+  - IDE: Pycharm, Google Colab
 
 #### Projects 📋
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-    - Tools: Python Libraries(SQLite), Kotlin(Android Studio)
+    - Tools: Python Libraries(SQLite), Android Studio
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
     - Tools: Python Libraries(Pandas, NLTK, Mecab, KoNLPy, Gradio)
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
