@@ -10,24 +10,30 @@ I enjoy diving into ML/DL and NLP projects. 🚀
   - K-Digital Training: [**Data Science/Engineering** Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
 
 #### Tech Stack 💻
-  - Languages: Python
-  - Frameworks: PyTorch, TensorFlow
-  - IDE: Pycharm, Google Colab
+  - Languages
+  	- Python
+  - Frameworks and Libraries
+    - PyTorch
+   	- TensorFlow
+    - Hugging Face
+  - IDE
+    - Pycharm
+    - Google Colab
 
 #### Projects 📋
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-    - SQLite, Android Studio(Kotlin)
+    - Tools: Python Libraries(SQLite), Kotlin(Android Studio)
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Pandas, NLTK, Mecab, KoNLPy, Hugging Face, Gradio
+    - Tools: Python Libraries(Pandas, NLTK, Mecab, KoNLPy, Gradio)
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
-    - Numpy, Pandas, Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium
+    - Tools: Python Libraries(Numpy, Pandas, Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium)
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
-    - OpenCV, YOLO, imgaug, Albumentations
+    - Tools: Python Libraries(OpenCV, YOLO, imgaug, Albumentations)
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
-    - Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext
+    - Tools: Python Libraries(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext)
       
 #### Interested Issue
-  - TBU
+  - Hugging Face
 
 Feel free to reach out to me via fairyofdata@gmail.com. 📧
 
