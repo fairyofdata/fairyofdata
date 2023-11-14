@@ -1,6 +1,6 @@
 ### Hi there! 👋
   - I'm Baek Jiheon, a passionate developer from South Korea.
-  - I'm interested in NLP, especially NLU, Sentence Classification!
+  - I'm interested in Data analysis and ML/DL. Especially NLP, NLU, Sentence Classification.
 
 #### Education 📚
   - Department of [**Information Convergence**](https://www.kw.ac.kr/ko/univ/depart_intro.jsp?hpage=college_002_02) Undergraduate Student (Kwangwoon University)
@@ -43,7 +43,7 @@ Tools:<br>
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
     - Tools: **Python Libraries**(SQLite), Andriod Studio
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Tools: **Python Libraries**(Pandas, NLTK, Mecab, Gradio), OPENAI API(Whisper), Django, <img src="https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg">
+    - Tools: **Python Libraries**(Pandas, NLTK, Mecab, Gradio), OPENAI API(Whisper), Django, Hugging Face
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
     - Tools: **Python Libraries**(Pandas, numpy, Matplotlib, Seaborn, Haversine, Geopy, Folium)
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
