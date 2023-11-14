@@ -56,7 +56,7 @@ Tools:<br>
   - Morpheme-based tokenizing (KoNLPy,Mecab)
   - Phoneme-based pronounciation correcting + STT
   - Syntax-based Korean-Japanese bilingual NLP
-  - <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> Recommend algorythms
+  - <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> Recommendation Algorithm
 
 Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
