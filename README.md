@@ -21,7 +21,7 @@
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
     - Tools: Python Libraries(Pandas, NLTK, Mecab, KoNLPy, Gradio), OPENAI API(Whisper), Django
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
-    - Tools: Python Libraries(Numpy, Pandas, Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium)
+    - Tools: Python Libraries(Matplotlib, Seaborn, SQLAlchemy, Haversine, Geopy, Folium)
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
     - Tools: Python Libraries(OpenCV, YOLO, imgaug, Albumentations)
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
@@ -33,6 +33,7 @@
   - Phoneme-based pronounciation correcting + STT
   - Syntax-based Korean-Japanese bilingual NLP
 
-Feel free to reach out to me via fairyofdata@gmail.com. 📧
+Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
+
 
 Let's collaborate and build something awesome together! 🌟
