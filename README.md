@@ -1,6 +1,6 @@
 ### Hi there! 👋
   - I'm Baek Jiheon, a passionate developer from South Korea.
-  - I'm interested in Data analysis and ML/DL. Especially NLP, NLU, Sentence Classification.
+  - I'm interested in Data analysis, ML/DL and NLP. Especially NLU, LLM Prompt Engineering.
 
 #### Education 📚
   - Department of [**Information Convergence**](https://www.kw.ac.kr/ko/univ/depart_intro.jsp?hpage=college_002_02) Undergraduate Student (Kwangwoon University)
