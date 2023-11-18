@@ -1,6 +1,7 @@
 ### Hi there! 👋
-  - I'm Baek Jiheon, a passionate developer from South Korea.
-  - I'm interested in Data analysis, ML/DL and NLP. Especially NLU, LLM Prompt Engineering.
+  - I'm Baek Jiheon, an Undergraduate Student Majoring Data Science.
+  - I'm interested in Data analysis, ML/DL. Especially NLP, NLU, Prompt Engineering.
+  - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
 #### Education 📚
   - Department of [**Information Convergence**](https://www.kw.ac.kr/ko/univ/depart_intro.jsp?hpage=college_002_02) Undergraduate Student (Kwangwoon University)
@@ -51,13 +52,10 @@ Tools:<br>
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
     - Tools: **Python Libraries**(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext)
     
-#### Interested Issue
+#### Interested Subject
   - Non-native speakers pronounciation correcting to use Phoneme-based STT
   - Syntax-based Korean-Japanese bilingual NLP with Morpheme-based tokenizing (KoNLPy,Mecab)
   - BERT-derived model Performance improvement study (e.g. KoELECTRA + Bi-GRU Model Performance compareing)
   - Recommendation Algorithm focused on Sentence-Classification (e.g. Recommendation based on Lyrics simminarity)
   - <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"> Music Recommendation Algorithm
-
-Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
-
-Let's collaborate and build something awesome together! 🌟
+    
