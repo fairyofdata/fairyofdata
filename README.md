@@ -56,5 +56,5 @@ Tools:<br>
   - Non-native speakers pronounciation correcting to use Phoneme-based STT
   - Syntax-based Korean-Japanese bilingual NLP with Morpheme-based tokenizing (KoNLPy,Mecab)
   - BERT-derived model Performance improvement study (e.g. KoELECTRA + Bi-GRU Model Performance compareing)
-  - Recommendation Algorithm focused on Sentence-Classification (e.g. Music Recommendation Algorithm based on Lyrics simminarity)
+  - Recommendation Algorithm focused on Sentence-Classification (e.g. Music Recommendation based on Lyrics simminarity)
     
