@@ -41,7 +41,7 @@ Main Tools:<br>
 
 #### Projects 🗃️
   - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering (TBU)](https://github.com/fairyofdata)
-    - Tools: **PyTorch**, Python Libraries(Pandas, IMDBpy, BeautifulSoup, Sklearn)
+    - Tools: **PyTorch**, Apache Spark, Python Libraries(Pandas, IMDBpy, BeautifulSoup, Sklearn)
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
     - Tools: **SQLite**, Android Studio, Android SDK, XML, Java, Kotlin
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
