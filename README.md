@@ -1,4 +1,4 @@
-### Hi there! 👋
+### Hi there! 🤗
   - I'm Baek Jiheon, an Undergraduate Student Majoring Data Science.
   - I'm interested in Data analysis, ML/DL. Especially NLP, NLU, Prompt Engineering.
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
@@ -31,28 +31,29 @@ Interested in:<br>
   <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
   <br>
 Main Tools:<br>
-  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white">
   <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252">
+  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white">
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white">  
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
   <br>
 </p>
 
-
-#### Projects 📋
+#### Projects 🗃️
+  - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering (TBU)](https://github.com/fairyofdata)
+    - Tools: **PyTorch**, Python Libraries(Pandas, IMDBpy, BeautifulSoup, Sklearn)
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-    - Tools: **Python Libraries**(SQLite), Andriod Studio
+    - Tools: **SQLite**, Android Studio, Android SDK, XML, Java, Kotlin
   - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Tools: **Python Libraries**(Pandas, NLTK, Mecab, Gradio), OPENAI API(Whisper), Django, Hugging Face
+    - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**(Whisper), Python Libraries(Pandas, NLTK, Mecab, Gradio), Django
   - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Stationarea_houseprice)
-    - Tools: **Python Libraries**(Pandas, numpy, Matplotlib, Seaborn, Haversine, Geopy, Folium)
+    - Tools: Python Libraries(Pandas, numpy, Matplotlib, Seaborn, Haversine, Geopy, Folium)
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
-    - Tools: **Python Libraries**(OpenCV, YOLO, imgaug, Albumentations)
+    - Tools: **PyTorch**, **Tableau**, Apache Spark, Python Libraries(OpenCV, YOLO, **imgaug**, Albumentations)
   - 2022.06. [Deep learning-based Swear word Detector](https://github.com/fairyofdata/Swear_word_Detector)
-    - Tools: **Python Libraries**(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext)
+    - Tools: Python Libraries(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext), Django
     
-#### Interested Subject
+#### Interested Subject 📝
   - Non-native speakers pronounciation correcting to use Phoneme-based STT
   - Syntax-based Korean-Japanese bilingual NLP with Morpheme-based tokenizing (KoNLPy,Mecab)
   - BERT-derived model Performance improvement study (e.g. KoELECTRA + Bi-GRU Model Performance compareing)
