@@ -5,7 +5,7 @@
 
 #### Education 📚
   - Department of [**Information Convergence**](https://ic.kw.ac.kr:501/program/process.php) Undergraduate Student (Kwangwoon University)
-  - Data Youth Campus: [**NLP-based Deep Learning** Course](https://builder.hufs.ac.kr/user/indexSub.action?codyMenuSeq=37079&siteId=hufs&menuType=T&uId=4&sortChar=AB&linkUrl=04_0201.html&mainFrame=right&dum=dum&boardId=41661&page=1&command=view&boardSeq=174547855&search=%EB%8D%B0%EC%9D%B4%ED%84%B0+&column=title) (Hankuk University of Foreign Studies)
+  - Data Youth Campus: [**NLP-based Deep Learning** Course](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do) (Hankuk University of Foreign Studies)
   - K-Digital Training: [**Data Science/Engineering** Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
 
 #### Tech Stack 💻
