@@ -40,7 +40,11 @@ Main Tools:<br>
 </p>
 
 #### Projects 🗃️
-  - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering (TBU)](https://github.com/fairyofdata)
+  - 2024.06. Korean Pronunciation Correction for Japanese Native Speaker (Ongoing, TBU)
+    - Tools: **OPENAI API**(Whisper), Wav2Vec 2.0, langdetect, Python Libraries(pytube, Pandas, NumPy, librosa), Streamlit
+  - 2024.01. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM_ESG_POS) (Ongoing)
+    - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**, Python Libraries(Selenium, Pandas, yfinance, KMeans, Fasttext), Streamlit
+  - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering](https://github.com/fairyofdata)
     - Tools: **PyTorch**, Apache Spark, Python Libraries(Pandas, IMDBpy, BeautifulSoup, Sklearn)
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
     - Tools: **SQLite**, Android Studio, Android SDK, XML, Java, Kotlin
