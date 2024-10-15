@@ -7,6 +7,7 @@
   - Department of [**Information Convergence**](https://ic.kw.ac.kr:501/program/process.php) Undergraduate Student (Kwangwoon University)
   - Data Youth Campus: [**NLP-based Deep Learning** Course](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do) (Hankuk University of Foreign Studies)
   - K-Digital Training: [**Data Science/Engineering** Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
+  - LG Aimers 5th (LG Artificial Inteligence Research)
 
 #### Tech Stack 💻
 <p>
@@ -40,7 +41,7 @@ Main Tools:<br>
 </p>
 
 #### Projects 🗃️
-  - 2024.06. Korean Pronunciation Correction for Japanese Native Speaker (Ongoing, TBU)
+  - 2024.07. [Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Pronunciation_KRforJP) (Ongoing)
     - Tools: **OPENAI API**(Whisper), Wav2Vec 2.0, langdetect, Python Libraries(pytube, Pandas, NumPy, librosa), Streamlit
   - 2024.01. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM_ESG_POS) (Ongoing)
     - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**, Python Libraries(Selenium, Pandas, yfinance, KMeans, Fasttext), Streamlit
