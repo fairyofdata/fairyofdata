@@ -43,9 +43,9 @@ Main Tools:<br>
 #### Projects 🗃️
   - 2024.07. [Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Pronunciation_KRforJP) (Ongoing)
     - Tools: **OPENAI API**(Whisper), Wav2Vec 2.0, langdetect, Python Libraries(pytube, Pandas, NumPy, librosa), Streamlit
-  - 2024.01. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM_ESG_POS) (Ongoing)
+  - 2024.01. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM-ESG-POS) (Ongoing)
     - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**, Python Libraries(Selenium, Pandas, yfinance, KMeans, Fasttext), Streamlit
-  - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering](https://github.com/fairyofdata)
+  - 2023.12. [Item-based Movie Recommendation Systyem Collaborative Filtering](https://github.com/fairyofdata//)
     - Tools: **PyTorch**, Apache Spark, Python Libraries(Pandas, IMDBpy, BeautifulSoup, Sklearn)
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
     - Tools: **SQLite**, Android Studio, Android SDK, XML, Java, Kotlin
