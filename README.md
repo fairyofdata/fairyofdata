@@ -57,4 +57,4 @@
   - 2023.10. [Tournament Simulator Android App Using SQLite](https://github.com/fairyofdata/Android_tournament) (Completed)
     - Tools: **SQLite**, **Android Studio**, **Android SDK**, **XML**, **Java**, **Kotlin**
   - 2021.11. [Students Community and Growth Platform for 12 Universities](https://github.com/fairyofdata/SNEULC_Arena) (Completed)
-    - Tools: **Android Studio** (**Java**, **Kotlin**), **Python** (**BeautifulSoup**, **Selenium**), **MySQL**, **Adobe XD**, **HTML/CSS/JavaScript**
+    - Tools: **Android Studio**, **Selenium**, **Adobe XD**, **HTML/CSS/JavaScript**, **React**
