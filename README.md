@@ -3,12 +3,6 @@
   - I'm interested in Data analysis, ML/DL. Especially NLP, NLU, Prompt Engineering.
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
-### Education 📚
-  - B.S in [Information Convergence](https://ic.kw.ac.kr:501/program/process.php) (Kwangwoon University)
-  - Data Youth Campus: [NLP Course](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do) (Hankuk University of Foreign Studies)
-  - LG Aimers: [Data Intenligence Course](https://lgresearch.ai/news/view?seq=488) (LG Artificial Inteligence Research)
-  - K-Digital Training: [Data Science Course](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM) (Samsung SDS Multicampus)
-
 ### Tech Stack 💻
 <p>
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
@@ -40,5 +34,4 @@
 ### Ongoing Projects 🗃️
   - [LLM-based ESG-focused Investment Portfolio Optimization System](https://github.com/fairyofdata/LLM.ESG.POS)
   - [LLM-based Phoneme-level Korean Pronunciation Correction for Japanese Native Speakers](https://github.com/fairyofdata/Phoneme_KRforJP)
-  - [Gen AI for Neutral Article Generation about Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) 
 
