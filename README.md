@@ -39,22 +39,22 @@
 
 ### Projects 🗃️
 #### AI, ML, Data Science
-  - 2024.10. [Neutral Article Generation for Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) (Ongoing)
-    - Tools: Streamlit, OpenAI API, NLP Techniques, Python Libraries(BeautifulSoup, Selenium, Pandas, Scikit-Learn)
-  - 2024.07. [Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Phoneme_KRforJP) (Ongoing)
-    - Tools: **OPENAI API**(Whisper), Wav2Vec 2.0, langdetect, Python Libraries(pytube, Pandas, NumPy, librosa), Streamlit
-  - 2024.01. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM.ESG.POS)
-    - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**, Python Libraries(Selenium, Pandas, yfinance, KMeans, Fasttext), Streamlit
-  - 2023.06. [Analysis of correlation between apartment-to-station distance and average price per space](https://github.com/fairyofdata/Station_Area_Houseprice)
-    - Tools: Python Libraries(Pandas, numpy, Matplotlib, Seaborn, Haversine, Geopy, Folium)
-  - 2023.08. [Deep learning-based voice phishing and smishing detector](https://github.com/fairyofdata/NLP_Phishing_detection)
-    - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**(Whisper), Python Libraries(Pandas, NLTK, Mecab, Gradio), Django
-  - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
-    - Tools: **PyTorch**, **Tableau**, Apache Spark, Python Libraries(OpenCV, YOLO, **imgaug**, Albumentations)
-  - 2022.06. [Deep learning-based Swear word Detector for Online Community](https://github.com/fairyofdata/NLP_Septic-word_tank)
-    - Tools: Python Libraries(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext), Django
+  - 2024.11. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM.ESG.POS) (Ongoing)
+    - Tools: **PyTorch**, **Hugging Face**, **OpenAI API**, Python Libraries (**Selenium**, **Pandas**, **yfinance**, **KMeans**, **Fasttext**), **Streamlit**
+  - 2024.07. [Neutral Article Generation for Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) (TBU)
+    - Tools: **Streamlit**, **OpenAI API**, NLP Techniques, Python Libraries (**BeautifulSoup**, **Selenium**, **Pandas**, **Scikit-Learn**)
+  - 2024.01. [Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Phoneme_KRforJP) (TBU)
+    - Tools: **OpenAI API** (Whisper), **Wav2Vec 2.0**, **langdetect**, Python Libraries (**pytube**, **Pandas**, **NumPy**, **librosa**), **Streamlit**
+  - 2023.08. [Deep Learning-based Voice Phishing and Smishing Detector](https://github.com/fairyofdata/NLP_Phishing_detection) (Completed)
+    - Tools: **PyTorch**, **Hugging Face**, **OpenAI API** (Whisper), Python Libraries (**Pandas**, **NLTK**, **Mecab**, **Gradio**), **Django**
+  - 2023.06. [Analysis of Correlation Between Apartment-to-Station Distance and Average Price per Space](https://github.com/fairyofdata/Station_Area_Houseprice) (Completed)
+    - Tools: Python Libraries (**Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Haversine**, **Geopy**, **Folium**)
+  - 2022.08. [YOLO v5-based Side Dish Recipe Recommendation Using Food Ingredient Object Recognition](https://github.com/fairyofdata/Object_detection_Sidedish) (Completed)
+    - Tools: **PyTorch**, **Tableau**, **Apache Spark**, Python Libraries (**OpenCV**, **YOLO**, **imgaug**, **Albumentations**)
+  - 2022.06. [Deep Learning-based Swear Word Detector for Online Community](https://github.com/fairyofdata/NLP_Septic-word_tank) (Completed)
+    - Tools: Python Libraries (**Pandas**, **Selenium**, **BeautifulSoup**, **NLTK**, **KoNLPy**, **Fasttext**), **Django**
 #### Android Applications
-  - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
-    - Tools: **SQLite**, Android Studio, Android SDK, XML, Java, Kotlin
-  - 2021.11. [Students Community and Growth Platform for between 12 Universities](https://github.com/fairyofdata/SNEULC_Arena)
-    - Tools: Android Studio (Java, Kotlin), Python (BeautifulSoup, Selenium), MySQL, Adobe XD, HTML/CSS/JavaScript
+  - 2023.10. [Tournament Simulator Android App Using SQLite](https://github.com/fairyofdata/Android_tournament) (Completed)
+    - Tools: **SQLite**, **Android Studio**, **Android SDK**, **XML**, **Java**, **Kotlin**
+  - 2021.11. [Students Community and Growth Platform for 12 Universities](https://github.com/fairyofdata/SNEULC_Arena) (Completed)
+    - Tools: **Android Studio** (**Java**, **Kotlin**), **Python** (**BeautifulSoup**, **Selenium**), **MySQL**, **Adobe XD**, **HTML/CSS/JavaScript**
