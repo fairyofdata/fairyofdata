@@ -51,7 +51,7 @@
     - Tools: **PyTorch**, **Hugging Face**, **OPENAI API**(Whisper), Python Libraries(Pandas, NLTK, Mecab, Gradio), Django
   - 2022.08. [Yolo v5 based Side dish recipe recommendation using food ingredient Object recognition](https://github.com/fairyofdata/Object_detection_Sidedish)
     - Tools: **PyTorch**, **Tableau**, Apache Spark, Python Libraries(OpenCV, YOLO, **imgaug**, Albumentations)
-  - 2022.06. [Deep learning-based Swear word Detector for Online Community and Multiplayer games](https://github.com/fairyofdata/NLP_Septic-word_tank)
+  - 2022.06. [Deep learning-based Swear word Detector for Online Community](https://github.com/fairyofdata/NLP_Septic-word_tank)
     - Tools: Python Libraries(Pandas, Selenium, BeautifulSoup, NLTK, KoNLPy, Fasttext), Django
 #### Android Applications
   - 2023.10. [Tournament simulator Android app using SQLite](https://github.com/fairyofdata/Android_tournament)
