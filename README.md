@@ -38,7 +38,7 @@
 </p>
 
 ### Ongoing Projects 🗃️
-#### AI, ML, Data Science
   - [LLM-based ESG-focused Investment Portfolio Optimization System](https://github.com/fairyofdata/LLM.ESG.POS)
+  - [LLM-based Phoneme-level Korean Pronunciation Correction for Japanese Native Speakers](https://github.com/fairyofdata/Phoneme_KRforJP)
   - [Gen AI for Neutral Article Generation about Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) 
-  - [Phoneme-based Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Phoneme_KRforJP)
+
