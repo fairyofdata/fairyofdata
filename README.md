@@ -37,24 +37,8 @@
   <br>
 </p>
 
-### Projects 🗃️
+### Ongoing Projects 🗃️
 #### AI, ML, Data Science
-  - 2024.11. [LLM-based ESG-focused Investment Portfolio Optimizer](https://github.com/fairyofdata/LLM.ESG.POS) (Ongoing)
-    - Tools: **PyTorch**, **Hugging Face**, **OpenAI API**, Python Libraries (**Selenium**, **Pandas**, **yfinance**, **KMeans**, **Fasttext**), **Streamlit**
-  - 2024.07. [Neutral Article Generation for Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) (TBU)
-    - Tools: **Streamlit**, **OpenAI API**, NLP Techniques, Python Libraries (**BeautifulSoup**, **Selenium**, **Pandas**, **Scikit-Learn**)
-  - 2024.01. [Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Phoneme_KRforJP) (TBU)
-    - Tools: **OpenAI API** (Whisper), **Wav2Vec 2.0**, **langdetect**, Python Libraries (**pytube**, **Pandas**, **NumPy**, **librosa**), **Streamlit**
-  - 2023.08. [Deep Learning-based Voice Phishing and Smishing Detector](https://github.com/fairyofdata/NLP_Phishing_detection) (Completed)
-    - Tools: **PyTorch**, **Hugging Face**, **OpenAI API** (Whisper), Python Libraries (**Pandas**, **NLTK**, **Mecab**, **Gradio**), **Django**
-  - 2023.06. [Analysis of Correlation Between Apartment-to-Station Distance and Average Price per Space](https://github.com/fairyofdata/Station_Area_Houseprice) (Completed)
-    - Tools: Python Libraries (**Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Haversine**, **Geopy**, **Folium**)
-  - 2022.08. [YOLO v5-based Side Dish Recipe Recommendation Using Food Ingredient Object Recognition](https://github.com/fairyofdata/Object_detection_Sidedish) (Completed)
-    - Tools: **PyTorch**, **Tableau**, **Apache Spark**, Python Libraries (**OpenCV**, **YOLO**, **imgaug**, **Albumentations**)
-  - 2022.06. [Deep Learning-based Swear Word Detector for Online Community](https://github.com/fairyofdata/NLP_Septic-word_tank) (Completed)
-    - Tools: Python Libraries (**Pandas**, **Selenium**, **BeautifulSoup**, **NLTK**, **KoNLPy**, **Fasttext**), **Django**
-#### Android Applications
-  - 2023.10. [Tournament Simulator Android App Using SQLite](https://github.com/fairyofdata/Android_tournament) (Completed)
-    - Tools: **SQLite**, **Android Studio**, **Android SDK**, **XML**, **Java**, **Kotlin**
-  - 2021.11. [Students Community and Growth Platform for 12 Universities](https://github.com/fairyofdata/SNEULC_Arena) (Completed)
-    - Tools: **Android Studio**, **Selenium**, **Adobe XD**, **HTML/CSS/JavaScript**, **React**
+  - [LLM-based ESG-focused Investment Portfolio Optimization System](https://github.com/fairyofdata/LLM.ESG.POS)
+  - [Gen AI for Neutral Article Generation about Korea-Japan Relations](https://github.com/fairyofdata/Neutral_Article_JK) 
+  - [Phoneme-based Korean Pronunciation Correction for Japanese Native Speaker](https://github.com/fairyofdata/Phoneme_KRforJP)
