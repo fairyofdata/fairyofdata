@@ -28,8 +28,3 @@
   <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
   <br>
 </p>
-
-### Ongoing Projects 🗃️
-  - [LLM-based ESG-focused Investment Portfolio Optimization System](https://github.com/fairyofdata/LLM.ESG.POS)
-  - [LLM-based Phoneme-level Korean Pronunciation Correction for Japanese Native Speakers](https://github.com/fairyofdata/Phoneme_KRforJP)
-
