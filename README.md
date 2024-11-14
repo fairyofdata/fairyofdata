@@ -1,6 +1,6 @@
 ## Hi there! 🤗
   - I'm Baek Jiheon, an Undergraduate Student Majoring Data Science.
-  - I'm interested in Data analysis, ML/DL. Especially NLP, NLU, Prompt Engineering.
+  - I'm interested in Data Science, ML/DL. Especially NLP, NLU, Prompt Engineering.
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
 ### Tech Stack 💻✨
@@ -28,3 +28,10 @@
   <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
   <br>
 </p>
+
+### Experiences 📚🌟
+- **B.S in Information Convergence** [@Kwangwoon University](https://ic.kw.ac.kr:501/program/process.php)  
+- **SW021**: ChatGPT Business Utilize [@Sungshin Women's University](https://m.dhnews.co.kr/news/view/1065594826213812)  
+- **LG Aimers**: Data Intelligence Course [@LG Artificial Intelligence Research](https://lgresearch.ai/news/view?seq=488)  
+- **Data Youth Campus**: NLP Course [@Hankuk University of Foreign Studies](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do)  
+- **K-Digital Training**: Data Science Course [@Multicampus (Samsung SDS)](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM)
