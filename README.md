@@ -29,12 +29,16 @@
   <br>
 </p>
 
-### Experiences 📚🌟
+### Experiences 📚
 - **B.S in Information Convergence** [@Kwangwoon University](https://ic.kw.ac.kr:501/program/process.php)
 - **K-Digital Training**: Data Science Course [@Multicampus (Samsung SDS)](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM)
 - **LG Aimers**: Data Intelligence Course [@LG Artificial Intelligence Research](https://lgresearch.ai/news/view?seq=488)
 - **Data Youth Campus**: NLP Course [@Hankuk University of Foreign Studies](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do)  
 - **SW021**: ChatGPT Business Utilize [@Sungshin Women's University](https://m.dhnews.co.kr/news/view/1065594826213812)  
 
-
+### Awards 🌟
+- Big Data Utilitize Competetion (Multicampus, 2022) - Excellence Award(1st)
+- Cybersecurity AI-Bigdata Challenge (KISA, 2023) - Excellence Award(1st)
+- KWU 8th Industry-Academic Cooperation SW Project (KWU, 2024) - Great Award(2nd)
+- KWU Dept. of AI Convergnece Graduation Exhibition (KWU, 2024) - Great Award(2nd)
 
