@@ -37,8 +37,8 @@
 - **SW021**: ChatGPT Business Utilize [@Sungshin Women's University](https://m.dhnews.co.kr/news/view/1065594826213812)  
 
 ### Awards 🌟
-- Big Data Utillitization Competition (Multicampus, 2022) - Excellence Award(1st)
-- Cybersecurity AI-Bigdata Challenge Track C (KISA, 2023) - Excellence Award(1st)
-- KWU 8th Industry-Academic Cooperation SW Project (KWU, 2024) - Great Award(2nd)
-- KWU Dept of AI Convergnece Graduation Exhibition (KWU, 2024) - Great Award(2nd)
+- Big Data Utillitization Competition (Multicampus, 2022) - **Excellence Award(1st)**
+- Cybersecurity AI-Bigdata Challenge Track C (KISA, 2023) - **Excellence Award(1st)**
+- KWU 8th Industry-Academic Cooperation SW Project (KWU, 2024) - **Great Award(2nd)**
+- KWU Dept of AI Convergnece Graduation Exhibition (KWU, 2024) - **Great Award(2nd)**
 
