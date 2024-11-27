@@ -6,7 +6,7 @@
 ## Hi there! 🤗
 
   - I'm Baek Jiheon, an Undergraduate Student Majoring Data Science.
-  - I'm interested in Data Science, ML/DL. Especially NLP, NLU, Prompt Engineering.
+  - I'm interested in Data Science, ML/DL. Especially NLP, NLU, linguistics, Prompt Engineering.
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
 ### Tech Stack 💻✨
