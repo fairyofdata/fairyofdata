@@ -1,4 +1,10 @@
+**🌐 Available Versions:**  
+[🇰🇷 한국어 (Korean)](./README_KR.md) | [🇯🇵 日本語 (Japanese)](./README_JP.md)  
+
+---
+
 ## Hi there! 🤗
+
   - I'm Baek Jiheon, an Undergraduate Student Majoring Data Science.
   - I'm interested in Data Science, ML/DL. Especially NLP, NLU, Prompt Engineering.
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
