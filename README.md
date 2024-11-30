@@ -10,6 +10,7 @@
   - Feel free to reach out to me via fairyofdata@gmail.com or my [linkedin account](https://www.linkedin.com/in/hjbaek/)  📧
 
 ### Tech Stack 💻✨
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fairyofdata&layout=compact&langs_count=4)
 <p>
   <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">  
