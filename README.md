@@ -43,7 +43,7 @@
 - **LG Aimers**: Data Intelligence Course [@LG Artificial Intelligence Research](https://lgresearch.ai/news/view?seq=488)
 - **Data Youth Campus**: NLP Course [@Hankuk University of Foreign Studies](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do)  
 - **SW021**: ChatGPT Business Utilize Course [@Sungshin Women's University](https://m.dhnews.co.kr/news/view/1065594826213812)
-- **ACC Korea**: AWS Official Students Community member [@AWS Korea](https://www.awscloudclubs.kr/)
+- **ACC Korea**: AWS Official Students Community 1st gen member [@AWS Korea](https://www.awscloudclubs.kr/)
 - **SCIT Master**: Japan IT Career Program [@Korea International Trade Agency](https://newtradecampus.kita.net/page/user_job_CloudIT_courseguide_outline) 
 
 ### Awards 🌟
