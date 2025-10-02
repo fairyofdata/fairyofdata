@@ -51,6 +51,7 @@
 - Cybersecurity AI-Bigdata Challenge Track C (KISA, 2023) - **Excellence Award(1st)**
 - KWU 8th Industry-Academic Cooperation SW Project (KWU, 2024) - **Great Award(2nd)**
 - KWU Dept of AI Convergnece Graduation Exhibition (KWU, 2024) - **Great Award(2nd)**
+- KITA 47th SCIT Master Project Presentation (KITA, 2025) - **Great Award(2nd)**
 
 <!-- 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fairyofdata&layout=compact&langs_count=10)
