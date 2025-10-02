@@ -33,12 +33,15 @@
 
 ---
 
+
 ### 경험 📚  
 - **정보융합학과 데이터사이언스전공 학사** [@광운대학교](https://ic.kw.ac.kr:501/program/process.php)  
 - **K-디지털 트레이닝**: 데이터 사이언스 과정 [@멀티캠퍼스 (삼성 SDS)](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM)  
 - **LG Aimers**: 데이터 인텔리전스 과정 [@LG AI 연구원](https://lgresearch.ai/news/view?seq=488)  
 - **데이터 청년 캠퍼스**: 자연어 처리 과정 [@한국외국어대학교](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do)  
 - **SW021**: ChatGPT 비즈니스 활용 과정 [@성신여자대학교](https://m.dhnews.co.kr/news/view/1065594826213812)  
+- **ACC Korea**: AWS 공식 대학생 커뮤니티 1기 멤버 [@AWS Korea](https://www.awscloudclubs.kr/)  
+- **SCIT Master**: 일본 IT직무 취업연계 프로그램 [@한국무역협회](https://newtradecampus.kita.net/page/user_job_CloudIT_courseguide_outline)  
 
 ---
 
@@ -47,3 +50,4 @@
 - **사이버보안 AI-빅데이터 챌린지 Track C** (KISA, 2023) - **최우수상 (1위)**  
 - **KWU 제8회 산학협력 SW 프로젝트** (광운대, 2024) - **우수상 (2위)**  
 - **KWU AI융합학과 졸업작품 전시회** (광운대, 2024) - **우수상 (2위)**  
+- **KITA 제47기 SCIT Master 프로젝트 발표회** (KITA, 2025) - **우수상 (2위)**  
