@@ -44,7 +44,7 @@
 - **Data Youth Campus**: NLP Course [@Hankuk University of Foreign Studies](https://ime.hufs.ac.kr/bbs/ime/509/71087/artclView.do)  
 - **SW021**: ChatGPT Business Utilize Course [@Sungshin Women's University](https://m.dhnews.co.kr/news/view/1065594826213812)
 - **ACC Korea**: AWS Official Students Community 1st gen member [@AWS Korea](https://www.awscloudclubs.kr/)
-- **SCIT Master**: Japan IT Career Program [@Korea International Trade Agency](https://newtradecampus.kita.net/page/user_job_CloudIT_courseguide_outline) 
+- **SCIT Master**: Japan IT Career Program [@Korea International Trade Association](https://newtradecampus.kita.net/page/user_job_CloudIT_courseguide_outline) 
 
 ### Awards 🌟
 - Big Data Utillitization Competition (Multicampus, 2022) - **Excellence Award(1st)**
