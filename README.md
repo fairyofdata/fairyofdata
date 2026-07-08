@@ -89,7 +89,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 
 - **Dual-ASR Architecture**: Measures the divergence between Whisper (strong internal LM — approximates intelligibility) and Wav2Vec2-CTC (no LM — captures raw acoustics) to surface the precise pronunciation gap that learners cannot hear in themselves.
 - **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
-- **L1 Interference Classifier**: A rule-based tagger that identifies 6 systematic error types specific to Japanese speakers (vowel epenthesis, coda deletion, laryngeal confusion, etc.). The LLM (Gemini) receives only structured evidence tags — it never computes measurements.
+- **L1 Interference Classifier**: A rule-based tagger grounded in Contrastive Phonology research (Jang 2016, etc.) that systematically diagnoses 6 typical error types specific to Japanese speakers (vowel epenthesis, coda deletion, laryngeal confusion, etc.). The LLM (Gemini) receives only structured evidence tags — it never computes measurements.
 - **Empirical Validation**: Validated through 4 reproducible experiments including Spearman ρ = −0.702 (score-severity correlation) and 100% G2P accuracy on a held-out 표준발음법 test set.
 
 ---
