@@ -103,6 +103,20 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
+#### 🛡️ AntiPhishingNLP — NLP 기반 피싱 탐지 서비스
+> `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
+
+🏆 2023 한국인터넷진흥원(KISA) 사이버보안 AI·빅데이터 챔린지 Track C — **최우수상 (1위)**
+
+스미싱 문자 타타와 보이스피싱 음성 탐지를 이중으로 처리하는 NLP 기반 피싱 감지 시스템입니다. 한국외국어대학교 데이터청년캐퍼스 팀 프로젝트입니다.
+
+- **3중 앤샘블 분류기**: KoBERT(양방향 문맥 이해) + KoELECTRA(토큰 적합성 판별) + Att-BiLSTM(MeCab 형태소 분석 + Attention) 세 모델의 소프트보팅으로 일반화와 도메인 특화 능력을 모두 확보합니다.
+- **이중 입력 체널**: 스미싱 문자는 직접 텍스트로 투입하고, 보이스피싱 음성은 Django Web Speech API로 실시간 STT 변환 후 동일 파이프라인에 투입합니다.
+- **클래스 불균형 대응**: KorCCViD 데이터셋에 SMOTE 오버샘플링을 적용하여 피싱/정상 클래스 불균형을 해소합니다.
+- **담당 파트 (백지헌)**: Att-BiLSTM 아키텍첫 설계, 앤샘블 보팅 전략, KorCCViD 데이터셋 정제 및 SMOTE 파이프라인, 텍스트 분류 추론 모듈 개발.
+
+---
+
 #### 🔮 OmikuZ — 세계관 확장형 AI 오미쿠지(점괘) 서비스
 > `Python` `FastAPI` `React` `Vite` `SQLAlchemy` `OpenAI` `PWA`
 

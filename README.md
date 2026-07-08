@@ -108,6 +108,20 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 ---
 
+#### 🛡️ AntiPhishingNLP — NLP-based Phishing Detection Service
+> `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
+
+🏆 Grand Prize (1st) — 2023 KISA Cybersecurity AI·Big Data Challenge Track C
+
+A dual-channel phishing detection system combining SMS phishing (smishing) text classification and real-time voice phishing (vishing) detection via STT — built as a team project at Hankuk University of Foreign Studies Data Youth Campus.
+
+- **Triple Ensemble Classifier**: KoBERT (bidirectional context), KoELECTRA (token replacement detection), and Att-BiLSTM with MeCab tokenizer are soft-voted to cover both generalized and domain-specific phishing patterns.
+- **Dual Input Channels**: Text messages are fed directly; voice calls are transcribed to text via Django Web Speech API and routed through the same classification pipeline.
+- **Class Imbalance Handling**: SMOTE oversampling applied on the KorCCViD dataset to address severe phishing/normal class skew.
+- **Contribution (Jiheon Baek)**: Att-BiLSTM architecture design, ensemble voting strategy, KorCCViD dataset cleansing and SMOTE pipeline, text classification inference module.
+
+---
+
 #### 🔮 OmikuZ — World-Building AI Fortune-Telling Service
 > `Python` `FastAPI` `React` `Vite` `SQLAlchemy` `OpenAI` `PWA`
 
