@@ -122,6 +122,17 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 
 ---
 
+#### 📰 LLM-NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator
+> `Python` `Streamlit` `OpenAI` `Selenium` `BeautifulSoup` `Pandas`
+
+A Streamlit pipeline that crawls news from Joongang Ilbo and Yomiuri Shimbun, clusters them by topic using GPT, and generates a bilingual neutral article to bridge the perspective gap.
+
+- **Automated Pipeline**: End-to-end integration of web crawling (Selenium/BS4) and LLM processing via OpenAI SDK v1.x.
+- **Topic Clustering & Pairing**: Uses GPT to classify crawled articles into broad topics, then selects the most topically aligned Korean-Japanese article pair for processing.
+- **Neutralization Prompting**: Explicitly instructs the LLM to highlight differences in reporting perspectives and synthesize a balanced, bilingual (Korean/Japanese) neutral article.
+
+---
+
 #### 🔮 OmikuZ — World-Building AI Fortune-Telling Service
 > `Python` `FastAPI` `React` `Vite` `SQLAlchemy` `OpenAI` `PWA`
 

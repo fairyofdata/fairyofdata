@@ -117,6 +117,17 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
+#### 📰 LLM-NAKOJA — LLM 기반 한일 관계 중립 기사 생성기
+> `Python` `Streamlit` `OpenAI` `Selenium` `BeautifulSoup` `Pandas`
+
+중앙일보와 요미우리 신문의 한일 관계 기사를 크롤링하고, GPT를 통해 주제별로 군집화한 뒤 양측의 시각을 반영한 중립 기사를 자동 생성하는 Streamlit 파이프라인입니다.
+
+- **자동화 파이프라인**: Selenium/BS4 기반 크롤링부터 OpenAI SDK v1.x를 활용한 LLM 프로세싱까지 End-to-End로 통합했습니다.
+- **주제 군집화 및 페어링**: GPT를 활용해 수집된 기사를 광범위한 주제로 분류하고, 동일한 특정 이슈를 다루는 최적의 한일 기사 쌍을 매칭합니다.
+- **관점 중립화 프롬프팅**: 두 언론사의 보도 관점 차이를 명시적으로 부각하며, 한국어와 일본어 두 가지 버전으로 균형 잡힌 중립 기사를 합성하도록 LLM을 제어합니다.
+
+---
+
 #### 🔮 OmikuZ — 세계관 확장형 AI 오미쿠지(점괘) 서비스
 > `Python` `FastAPI` `React` `Vite` `SQLAlchemy` `OpenAI` `PWA`
 
