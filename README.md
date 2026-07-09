@@ -129,7 +129,7 @@ A research-grade system that derives transparent ESG scores directly from news t
 A dual-channel phishing detection system combining SMS phishing (smishing) text classification and real-time voice phishing (vishing) detection via STT — built as a team project at Hankuk University of Foreign Studies Data Youth Campus.
 
 - **Triple Ensemble Classifier**: KoBERT (bidirectional context), KoELECTRA (token replacement detection), and Att-BiLSTM with MeCab tokenizer are soft-voted to cover both generalized and domain-specific phishing patterns.
-- **Dual Input Channels**: Text messages are fed directly; voice calls are transcribed to text via Django Web Speech API and routed through the same classification pipeline.
+- **Dual Input Channels**: Text messages are fed directly; voice calls are transcribed to text in real-time via the browser's Web Speech API and sent to the Django backend to route through the same classification pipeline.
 - **Class Imbalance Handling**: SMOTE oversampling applied on the KorCCViD dataset to address severe phishing/normal class skew.
 - **Contribution (Jiheon Baek)**: Att-BiLSTM architecture design, ensemble voting strategy, KorCCViD dataset cleansing and SMOTE pipeline, text classification inference module.
 
@@ -143,7 +143,7 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 A deep learning filter developed to detect circumvented profanity (e.g., character separation, special symbol insertion) that traditional morpheme-based detectors fail to identify.
 
 - **Dual-Tokenization & Ensemble**: Engineered a character-level Jamo decomposition tokenizer, creating a Soft-Voting Ensemble (FastText LSTM, Jamo LSTM, Jamo CNN) achieving 93.7% accuracy.
-- **Data Engineering**: Architected a robust scraping pipeline collecting 56,000+ community comments, overcoming anti-bot protections (IP bans, User-Agent filters) via randomized pacing algorithms.
+- **Data Engineering**: Architected a robust asynchronous scraping pipeline to reliably collect 56,000+ unstructured community comments from dynamic web environments.
 - **Full-stack Deployment**: Developed a Django-based REST API and web interface to provide real-time inference and persist prediction logs to MySQL databases.
 
 ---
