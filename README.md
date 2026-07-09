@@ -94,6 +94,19 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 
 ---
 
+#### 🎵 URFIT — STT-Based AI J-POP Playlist Community
+> `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
+
+🏆 Excellence Award — KITA SCIT Master 47th Cohort Project Presentation
+
+A service that finds J-POP songs from vague lyrics or humming, then builds a Spotify playlist with AI-generated title and description — targeting the gap between "I know this song" and being able to search for it.
+
+- **Multimodal Search Pipeline**: Whisper (STT) converts voice input to text; SentenceTransformer embeddings + FAISS index run vector similarity search across a lyrics dataset to retrieve the best-matching tracks.
+- **AI Playlist Generation**: GPT-3.5 analyzes the retrieved tracks and generates a creative playlist title and description, then saves it directly to the user's Spotify account via OAuth API.
+- **Architecture Refactor**: Migrated from a Hugging Face Space monolith to a clean microservice architecture (Angular 17+ frontend / FastAPI backend), enabling flexible deployment to Firebase Hosting, Cloud Run, and beyond.
+
+---
+
 #### 📊 LEPOS — LLM-based ESG-Focused Portfolio Optimization Service
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
@@ -122,65 +135,16 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 
 ---
 
-#### 📰 LLM-NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator
-> `Python` `Streamlit` `OpenAI` `Selenium` `BeautifulSoup` `Pandas`
+#### 🛡️ SepticFilterNLP — Deep Learning Algorithm-based Profanity Detection Filter
+> `Python` `FastText` `CNN` `LSTM` `Django` `MySQL`
 
-A Streamlit pipeline that crawls news from Joongang Ilbo and Yomiuri Shimbun, clusters them by topic using GPT, and generates a bilingual neutral article to bridge the perspective gap.
+🏆 Grand Prize (1st) — Samsung SDS Multi-Campus Big Data Challenge
 
-- **Automated Pipeline**: End-to-end integration of web crawling (Selenium/BS4) and LLM processing via OpenAI SDK v1.x.
-- **Topic Clustering & Pairing**: Uses GPT to classify crawled articles into broad topics, then selects the most topically aligned Korean-Japanese article pair for processing.
-- **Neutralization Prompting**: Explicitly instructs the LLM to highlight differences in reporting perspectives and synthesize a balanced, bilingual (Korean/Japanese) neutral article.
+A deep learning filter developed to detect circumvented profanity (e.g., character separation, special symbol insertion) that traditional morpheme-based detectors fail to identify.
 
----
-
-#### 🔮 OmikuZ — World-Building AI Fortune-Telling Service
-> `Python` `FastAPI` `React` `Vite` `SQLAlchemy` `OpenAI` `PWA`
-
-A mobile-first PWA where users travel between distinct thematic "worlds" and receive in-character AI interpretations of their fortune — built around cost-optimization and zero-redeployment extensibility.
-
-- **Cost-Optimized Architecture**: Fortune text is served from a DB cache of master data. LLM interpretation is triggered only when the user spends a token (recharged every 20 hours), blocking runaway API costs via Lazy Evaluation.
-- **Zero-Deployment Extensibility**: New worlds are added by injecting a system prompt and theme colors into a single `theme_metadata (JSON)` DB field — no backend code change or redeployment required.
-- **Structured LLM Output**: Pydantic JSON schema enforcement on every LLM response guarantees stable frontend rendering regardless of model variance.
-- **Immersive Micro-interactions**: Time-locked warp gauge, gyroscope-based shaking interaction, and typewriter effect deliver a native-app-grade UX within a PWA shell.
-
----
-
-#### 🎵 URFIT — STT-Based AI J-POP Playlist Community
-> `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
-
-🏆 Excellence Award — KITA SCIT Master 47th Cohort Project Presentation
-
-A service that finds J-POP songs from vague lyrics or humming, then builds a Spotify playlist with AI-generated title and description — targeting the gap between "I know this song" and being able to search for it.
-
-- **Multimodal Search Pipeline**: Whisper (STT) converts voice input to text; SentenceTransformer embeddings + FAISS index run vector similarity search across a lyrics dataset to retrieve the best-matching tracks.
-- **AI Playlist Generation**: GPT-3.5 analyzes the retrieved tracks and generates a creative playlist title and description, then saves it directly to the user's Spotify account via OAuth API.
-- **Architecture Refactor**: Migrated from a Hugging Face Space monolith to a clean microservice architecture (Angular 17+ frontend / FastAPI backend), enabling flexible deployment to Firebase Hosting, Cloud Run, and beyond.
-
----
-
-### 🛠️ Personal Tools
-
----
-
-#### 💰 Accountant — AI-Powered Personal Finance Dashboard
-> `Angular 21` `Firebase` `Firestore` `PWA` `OpenAI` `Signals`
-
-A personal finance dashboard that goes beyond ledger-keeping — combining data cleansing, multi-dimensional cross-filtering BI, and an AI financial co-pilot. (JPY-denominated)
-
-- **Custom Domain Model**: Expenses are classified by *controllability* into five tiers [Fixed / Living / Culture / Social / Infrastructure]. AI briefings focus exclusively on the three controllable variable-cost categories, filtering out noise from fixed and capital expenses.
-- **AI Receipt Scanner**: `gpt-4o-mini` vision extracts date, amount, and merchant from receipt images. Existing category definitions are dynamically injected into the prompt to constrain outputs and prevent hallucination.
-- **OLS Forecast**: Projects next-period spending via simple linear regression fitted only on completed past periods, automatically excluding one-time outliers (e.g., moving costs) to protect forecast reliability.
-- **PWA + Offline Sync**: Angular Service Worker + Dexie (IndexedDB) local cache + offline change queue ensures full read/write capability during network outages, with automatic sync on reconnect.
-
----
-
-#### 🎵 Archetier — Music Collection Management Dashboard
-> `Angular 17+` `Firebase Hosting` `ngx-charts` `Signals`
-
-A dashboard for tracking and visualizing a personal record collection.
-
-- **Intelligent Cross-Filtering**: Clicking any table row instantly filters charts and detail views to the matching condition; the genre pie chart auto-drills down to an artist-level breakdown when a genre filter is active.
-- **Responsive UI**: Automatically switches between a full-featured desktop grid and a touch-friendly mobile accordion view, with acquisition dates and price premiums visualized as domain-specific badges.
+- **Dual-Tokenization & Ensemble**: Engineered a character-level Jamo decomposition tokenizer, creating a Soft-Voting Ensemble (FastText LSTM, Jamo LSTM, Jamo CNN) achieving 93.7% accuracy.
+- **Data Engineering**: Architected a robust scraping pipeline collecting 56,000+ community comments, overcoming anti-bot protections (IP bans, User-Agent filters) via randomized pacing algorithms.
+- **Full-stack Deployment**: Developed a Django-based REST API and web interface to provide real-time inference and persist prediction logs to MySQL databases.
 
 ---
 
