@@ -82,7 +82,7 @@ Currently deepening my expertise in **LLM-based applications**, **AI automation*
 
 ---
 
-#### 🧑‍🏫 Phomene — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers
+#### 🧑‍🏫 [Phomene — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
 A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level.
@@ -94,7 +94,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 
 ---
 
-#### 🎵 URFIT — STT-Based AI J-POP Playlist Community
+#### 🎵 [URFIT — STT-Based AI J-POP Playlist Community](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 Excellence Award — KITA SCIT Master 47th Cohort Project Presentation
@@ -107,7 +107,7 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ---
 
-#### 📊 LEPOS — LLM-based ESG-Focused Portfolio Optimization Service
+#### 📊 [LEPOS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
@@ -121,7 +121,7 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 ---
 
-#### 🛡️ AntiPhishingNLP — NLP-based Phishing Detection Service
+#### 🛡️ [AntiPhishingNLP — NLP-based Phishing Detection Service](https://github.com/fairyofdata/AntiPhishingNLP)
 > `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
 
 🏆 Grand Prize (1st) — 2023 KISA Cybersecurity AI·Big Data Challenge Track C
@@ -135,7 +135,7 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 
 ---
 
-#### 🛡️ SepticFilterNLP — Deep Learning Algorithm-based Profanity Detection Filter
+#### 🛡️ [SepticFilterNLP — Deep Learning Algorithm-based Profanity Detection Filter](https://github.com/fairyofdata/SepticFilterNLP)
 > `Python` `FastText` `CNN` `LSTM` `Django` `MySQL`
 
 🏆 Grand Prize (1st) — Samsung SDS Multi-Campus Big Data Challenge

@@ -78,7 +78,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🧑‍🏫 Phomene — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭
+#### 🧑‍🏫 [Phomene — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
 일본어 모어 화자가 한국어 발음을 교정할 수 있도록 설계된 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다.
@@ -90,7 +90,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🎵 URFIT — 음성인식 기반 AI J-POP 플레이리스트 커뮤니티
+#### 🎵 [URFIT — 음성인식 기반 AI J-POP 플레이리스트 커뮤니티](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 한국무역협회 SCIT Master 47기 프로젝트 발표회 **우수상**
@@ -103,7 +103,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 📊 LEPOS — LLM 기반 ESG 중심 포트폴리오 최적화 서비스
+#### 📊 [LEPOS — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/LLM_ESG_POS)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 광운대학교 제8회 산학협력 SW 프로젝트 **우수상** · 정보융합학과 졸업전시회 **우수상**
@@ -116,7 +116,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🛡️ AntiPhishingNLP — NLP 기반 피싱 탐지 서비스
+#### 🛡️ [AntiPhishingNLP — NLP 기반 피싱 탐지 서비스](https://github.com/fairyofdata/AntiPhishingNLP)
 > `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
 
 🏆 2023 한국인터넷진흥원(KISA) 사이버보안 AI·빅데이터 챌린지 Track C — **최우수상 (1위)**
@@ -130,7 +130,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🛡️ SepticFilterNLP — 딥러닝 알고리즘 기반 욕설 감지 필터
+#### 🛡️ [SepticFilterNLP — 딥러닝 알고리즘 기반 욕설 감지 필터](https://github.com/fairyofdata/SepticFilterNLP)
 > `Python` `FastText` `CNN` `LSTM` `Django` `MySQL`
 
 🏆 삼성SDS 멀티캠퍼스 빅데이터 활용 공모전 — **최우수상 (1위)**
