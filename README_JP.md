@@ -78,7 +78,7 @@ AIを実際のサービスや業務に活かす開発を目指しています。
 
 ---
 
-#### 🧑‍🏫 [Phomene — 日本語話者向け・音素レベルの韓国語発音コーチング](https://github.com/fairyofdata/PhonemeJP2KR)
+#### 🧑‍🏫 [PhonemeJP2KR — 日本語話者向け・音素レベルの韓国語発音コーチング](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
 日本語を母語とする学習者が韓国語の発音を矯正できるよう設計されたCAPT（Computer-Assisted Pronunciation Training）Webアプリケーションです。優秀賞を受賞した音声認識検索プロジェクト（URFIT）で確立したASR（Whisper）および音声処理パイプライン技術を拡張し、より高度な音素レベルの発音診断システムとして設計しました。
@@ -90,7 +90,7 @@ AIを実際のサービスや業務に活かす開発を目指しています。
 
 ---
 
-#### 🎵 [URFIT — 音声認識ベース AI J-POPプレイリストコミュニティ](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [LLM_STT_Songfinder — 音声認識ベース AI J-POPプレイリストコミュニティ](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 韓国貿易協会 SCIT Master 47期 プロジェクト発表会 **優秀賞**
@@ -103,7 +103,7 @@ AIを実際のサービスや業務に活かす開発を目指しています。
 
 ---
 
-#### 📊 [LEPOS — LLMベースのESG重視ポートフォリオ最適化サービス](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [LLM_ESG_POS — LLMベースのESG重視ポートフォリオ最適化サービス](https://github.com/fairyofdata/LLM_ESG_POS)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 光云大学 第8回 産学協力SWプロジェクト **優秀賞** · 情報融合学科 卒業展示会 **優秀賞**

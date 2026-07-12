@@ -82,7 +82,7 @@ Currently deepening my expertise in **LLM-based applications**, **AI automation*
 
 ---
 
-#### 🧑‍🏫 [Phomene — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
+#### 🧑‍🏫 [PhonemeJP2KR — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
 A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during the award-winning project (URFIT - SCIT Master Excellence Award).
@@ -94,7 +94,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 
 ---
 
-#### 🎵 [URFIT — STT-Based AI J-POP Playlist Community](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [LLM_STT_Songfinder — STT-Based AI J-POP Playlist Community](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 Excellence Award — KITA SCIT Master 47th Cohort Project Presentation
@@ -107,7 +107,7 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ---
 
-#### 📊 [LEPOS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [LLM_ESG_POS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  

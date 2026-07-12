@@ -78,7 +78,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🧑‍🏫 [Phomene — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭](https://github.com/fairyofdata/PhonemeJP2KR)
+#### 🧑‍🏫 [PhonemeJP2KR — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
 일본어 모어 화자가 한국어 발음을 교정할 수 있도록 설계된 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다. 우수상을 수상한 음성 검색 프로젝트(URFIT)에서 정립한 ASR(Whisper) 및 오디오 처리 파이프라인 기술을 확장하여, 한층 고도화된 음소 수준의 발음 진단 시스템으로 설계했습니다.
@@ -90,7 +90,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 🎵 [URFIT — 음성인식 기반 AI J-POP 플레이리스트 커뮤니티](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [LLM_STT_Songfinder — 음성인식 기반 AI J-POP 플레이리스트 커뮤니티](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 한국무역협회 SCIT Master 47기 프로젝트 발표회 **우수상**
@@ -103,7 +103,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ---
 
-#### 📊 [LEPOS — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [LLM_ESG_POS — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/LLM_ESG_POS)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 광운대학교 제8회 산학협력 SW 프로젝트 **우수상** · 정보융합학과 졸업전시회 **우수상**
