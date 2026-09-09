@@ -74,7 +74,28 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ## 🗂️ Projects
 
-### 🔬 개인 연구 / 서비스 프로젝트
+### 🔬 시그니처 & 주요 서비스 프로젝트
+
+---
+
+#### ⚖️ [LLM_NAKOJA — LLM 기반 한일관계 중립기사 자동생성기](https://github.com/fairyofdata/LLM_NAKOJA)
+> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
+
+1643년 조선통신사 박안기의 **경요세계(瓊瑤世界: 두 옥구슬이 서로를 비추다)**와 1728년 아메노모리 호슈의 **성신교린(誠信交隣: 성실과 진심으로써 교류하다)**의 역사적 통찰을 바탕으로, 한국(중앙일보)과 일본(요미우리신문) 양국 언론의 동일 이슈 보도를 교차 분석하여 편향 없는 중립 기사를 한국어/일본어 양국어로 자동 합성하는 AI 저널리즘 파이프라인입니다.
+
+- **L1 언어적 편향(Framing Bias) 배제 아키텍처**: 한국어/일본어 원문에 내재된 자국 중심적 프레이밍을 배제하기 위해, 중립 매개 언어인 **영어(English)**로 팩트와 주장을 1차 분리 요약하는 획기적인 파이프라인을 구축했습니다.
+- **Pydantic Structured Outputs 도입**: OpenAI 최신 구조화 출력을 적용하여 0%의 파싱 실패율을 보장하며, 공통 사실(Shared Facts)과 양국 보도 강조점을 대비하는 '관점 대조표(Perspective Contrast Matrix)'를 정형 데이터로 추출합니다.
+- **클린 아키텍처 및 무결성 검증**: 크롤러, 순수 LLM 파이프라인, UI를 계층 분리하고 Mock 기반 pytest 단위 테스트(10/10 Pass)를 완비했습니다.
+
+---
+
+#### 🔮 [ChronoKuji — Multiverse Spacetime AI Omikuji & Codex PWA](https://github.com/fairyofdata/ChronoKuji)
+> `TypeScript` `React` `Vite` `TailwindCSS` `PWA` `Web Audio API`
+
+다중우주 시공간 테마를 접목한 인터랙티브 AI 오미쿠지(일본 전통 운세) 및 운명 코덱스 프로그레시브 웹 앱(PWA)입니다.
+
+- **오프라인 우선 PWA 아키텍처**: Service Worker 및 Cache API를 기반으로 네트워크 단절 상태에서도 완벽하게 동작하며, 모바일/데스크톱 앱 수준의 반응형 경험을 제공합니다.
+- **인터랙티브 모션 & 오디오 엔진**: Web Audio API 기반 사운드 신디사이징과 CSS/Canvas 파티클 애니메이션을 통해 극적인 몰입형 UX를 구현했습니다.
 
 ---
 

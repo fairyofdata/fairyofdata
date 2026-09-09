@@ -74,7 +74,28 @@ AIを実際のサービスや業務に活かす開発を目指しています。
 
 ## 🗂️ プロジェクト
 
-### 🔬 個人研究 / サービスプロジェクト
+### 🔬 シグネチャー＆主要サービスプロジェクト
+
+---
+
+#### ⚖️ [LLM_NAKOJA — LLMベース日韓関係中立記事自動生成システム](https://github.com/fairyofdata/LLM_NAKOJA)
+> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
+
+1643年の朝鮮通信使・朴安期による**「瓊瑤世界（二つの玉が互いを照らし合う）」**と1728年の雨森芳洲による**「誠信交隣（誠実と信頼をもって互いに交わる）」**の思想を背景に、韓国（中央日報）と日本（読売新聞）の両国メディアによる同一事案の報道を交差分析し、偏向を排した客観的な中立記事を日韓両言語で自動合成するAIジャーナリズムシステムです。
+
+- **英語を中間言語とするL1バイアス除去アーキテクチャ**: 両国語に潜む自国中心のフレーミングや感情的バイアスを排除するため、第3言語である**英語（English）**で一次事実と主観的主張を分離・要約する独自パイプラインを採用。
+- **Pydantic Structured Outputsの導入**: OpenAIの構造化出力を全面導入し、パース失敗ゼロを保証。両国の論点対照表（Perspective Contrast Matrix）を型安全に抽出。
+- **クリーンアーキテクチャとテスト自動化**: スクレイパー、パイプライン、UIを完全分離し、pytestによるユニットテスト（10/10合格）を完備。
+
+---
+
+#### 🔮 [ChronoKuji — Multiverse Spacetime AI Omikuji & Codex PWA](https://github.com/fairyofdata/ChronoKuji)
+> `TypeScript` `React` `Vite` `TailwindCSS` `PWA` `Web Audio API`
+
+マルチバース時空をテーマにしたインタラクティブなAIおみくじ＆運命コーデックス・プログレッシブWebアプリ（PWA）です。
+
+- **オフラインファーストPWA**: Service WorkerとCache APIを基盤とし、オフライン環境でも完全動作するネイティブアプリ級のレスポンシブ体験を提供。
+- **インタラクティブモーション＆オーディオエンジン**: Web Audio APIによる動的シンセサイズ音響とCanvasパーティクルアニメーションによる没入型UXを実現。
 
 ---
 
