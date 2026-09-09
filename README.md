@@ -82,17 +82,6 @@ Currently deepening my expertise in **LLM-based applications**, **AI automation*
 
 ---
 
-#### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
-> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
-
-Inspired by the historical philosophies of **瓊瑤世界 (경요세계: 'Two Jade Orbs Reflecting Each Other', Park An-Gi, 1643)** and **誠信交隣 (성신교린: 'Exchange with Sincerity and Mutual Trust', Amenomori Hōshū, 1728)**, this AI journalism pipeline cross-analyzes news reporting on identical bilateral issues from both Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) media, generating an objective, neutral article in both languages.
-
-- **L1 Framing Bias Elimination Architecture**: To eliminate implicit nationalistic framing and emotional undertones, the system employs **English as an intermediate lingua franca** to distill verifiable facts and subjective claims before synthesizing the final bilingual article.
-- **Pydantic Structured Outputs**: Employs OpenAI's latest structured parsing to eliminate regex parsing errors completely and systematically extract a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence).
-- **Clean Architecture & Full Verification**: Decoupled crawler, pure LLM pipeline, and Streamlit presentation layers backed by a comprehensive unit test suite (10/10 Passed with pytest and mock clients).
-
----
-
 #### 🧑‍🏫 [PhonemeJP2KR — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
@@ -102,6 +91,20 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 - **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
 - **L1 Interference Classifier**: A rule-based tagger grounded in Contrastive Phonology research (Jang 2016, etc.) that systematically diagnoses 6 typical error types specific to Japanese speakers (vowel epenthesis, coda deletion, laryngeal confusion, etc.). The LLM (Gemini) receives only structured evidence tags — it never computes measurements.
 - **Empirical Validation**: Validated through 4 reproducible experiments including Spearman ρ = −0.702 (score-severity correlation) and 100% G2P accuracy on a held-out 표준발음법 test set.
+
+---
+
+#### 📊 [LLM_ESG_POS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
+> `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
+
+🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
+🏆 Excellence Award — 2024 Graduation Exhibition, Kwangwoon University
+
+A research-grade system that derives transparent ESG scores directly from news text using fine-tuned Korean NLP models, then feeds those scores into a Black-Litterman portfolio optimizer as investor views.
+
+- **Data Pipeline**: Crawled **1.38M news articles** for 68 KOSPI companies (2019–2023), bootstrapped labels with GPT-3.5, and fine-tuned a cascade of 6 KoELECTRA classifiers (relevance filtering → sentiment → ESG scoring → pillar classification).
+- **Portfolio Optimization**: A 15-question survey maps user values onto a pillar-by-agency preference matrix, which is injected into Black-Litterman as P/Q views. Final weights maximize the Sharpe ratio under Ledoit-Wolf shrinkage covariance.
+- **Backtesting**: Annual rebalancing over 2020–2024 shows **LEPOS (Sharpe 0.503, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric, with the ESG signal's contribution isolated to risk reduction via ablation.
 
 ---
 
@@ -118,17 +121,14 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ---
 
-#### 📊 [LLM_ESG_POS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
-> `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
+#### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
+> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
-🏆 Excellence Award — 2024 Graduation Exhibition, Kwangwoon University
+Inspired by the historical philosophies of **瓊瑤世界 (경요세계: 'Two Jade Orbs Reflecting Each Other', Park An-Gi, 1643)** and **誠信交隣 (성신교린: 'Exchange with Sincerity and Mutual Trust', Amenomori Hōshū, 1728)**, this AI journalism pipeline cross-analyzes news reporting on identical bilateral issues from both Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) media, generating an objective, neutral article in both languages.
 
-A research-grade system that derives transparent ESG scores directly from news text using fine-tuned Korean NLP models, then feeds those scores into a Black-Litterman portfolio optimizer as investor views.
-
-- **Data Pipeline**: Crawled **1.38M news articles** for 68 KOSPI companies (2019–2023), bootstrapped labels with GPT-3.5, and fine-tuned a cascade of 6 KoELECTRA classifiers (relevance filtering → sentiment → ESG scoring → pillar classification).
-- **Portfolio Optimization**: A 15-question survey maps user values onto a pillar-by-agency preference matrix, which is injected into Black-Litterman as P/Q views. Final weights maximize the Sharpe ratio under Ledoit-Wolf shrinkage covariance.
-- **Backtesting**: Annual rebalancing over 2020–2024 shows **LEPOS (Sharpe 0.503, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric, with the ESG signal's contribution isolated to risk reduction via ablation.
+- **L1 Framing Bias Elimination Architecture**: To eliminate implicit nationalistic framing and emotional undertones, the system employs **English as an intermediate lingua franca** to distill verifiable facts and subjective claims before synthesizing the final bilingual article.
+- **Pydantic Structured Outputs**: Employs OpenAI's latest structured parsing to eliminate regex parsing errors completely and systematically extract a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence).
+- **Clean Architecture & Full Verification**: Decoupled crawler, pure LLM pipeline, and Streamlit presentation layers backed by a comprehensive unit test suite (10/10 Passed with pytest and mock clients).
 
 ---
 
