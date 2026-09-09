@@ -78,7 +78,7 @@ Currently deepening my expertise in **LLM-based applications**, **AI automation*
 
 ## 🗂️ Projects
 
-### 🔬 Signature & Key Service Projects
+### 🤖 LLM & AI Engineering Projects
 
 ---
 
@@ -90,16 +90,6 @@ Inspired by the historical philosophies of **瓊瑤世界 (경요세계: 'Two Ja
 - **L1 Framing Bias Elimination Architecture**: To eliminate implicit nationalistic framing and emotional undertones, the system employs **English as an intermediate lingua franca** to distill verifiable facts and subjective claims before synthesizing the final bilingual article.
 - **Pydantic Structured Outputs**: Employs OpenAI's latest structured parsing to eliminate regex parsing errors completely and systematically extract a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence).
 - **Clean Architecture & Full Verification**: Decoupled crawler, pure LLM pipeline, and Streamlit presentation layers backed by a comprehensive unit test suite (10/10 Passed with pytest and mock clients).
-
----
-
-#### 🔮 [ChronoKuji — Multiverse Spacetime AI Omikuji & Codex PWA](https://github.com/fairyofdata/ChronoKuji)
-> `TypeScript` `React` `Vite` `TailwindCSS` `PWA` `Web Audio API`
-
-An interactive multiverse spacetime-themed AI Omikuji (traditional fortune slip) and destiny codex progressive web application (PWA).
-
-- **Offline-First PWA Architecture**: Built with Service Worker and Cache API for seamless operation even under disconnected network conditions, providing a native mobile/desktop app experience.
-- **Interactive Motion & Audio Engine**: Implements synthesized real-time audio dynamics via Web Audio API alongside responsive canvas particle physics.
 
 ---
 
