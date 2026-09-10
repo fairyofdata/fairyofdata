@@ -123,7 +123,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 #### ⚖️ [LLM_NAKOJA — LLM 기반 한일관계 중립기사 자동생성기](https://github.com/fairyofdata/LLM_NAKOJA)
 > `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-1643년 조선통신사 박안기의 **경요세계(瓊瑤世界: 두 옥구슬이 서로를 비추다)**와 1728년 아메노모리 호슈의 **성신교린(誠信交隣: 성실과 진심으로써 교류하다)**의 역사적 통찰을 바탕으로, 한국(중앙일보)과 일본(요미우리신문) 양국 언론의 동일 이슈 보도를 교차 분석하여 편향 없는 중립 기사를 한국어/일본어 양국어로 자동 합성하는 AI 저널리즘 파이프라인입니다.
+한국(중앙일보)과 일본(요미우리신문) 양국 언론의 동일 이슈 보도를 교차 수집·분석하여, 자국 중심적 프레이밍 편향을 배제하고 **한국어와 일본어 양국어로 균형 잡힌 중립 기사를 자동 합성하는 AI 저널리즘 파이프라인**입니다.
 
 - **L1 언어적 편향(Framing Bias) 배제 아키텍처**: 한국어/일본어 원문에 내재된 자국 중심적 프레이밍을 배제하기 위해, 중립 매개 언어인 **영어(English)**로 팩트와 주장을 1차 분리 요약하는 획기적인 파이프라인을 구축했습니다.
 - **Pydantic Structured Outputs 도입**: OpenAI 최신 구조화 출력을 적용하여 0%의 파싱 실패율을 보장하며, 공통 사실(Shared Facts)과 양국 보도 강조점을 대비하는 '관점 대조표(Perspective Contrast Matrix)'를 정형 데이터로 추출합니다.

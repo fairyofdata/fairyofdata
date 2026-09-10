@@ -124,7 +124,7 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 #### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
 > `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-Inspired by the historical philosophies of **瓊瑤世界 (경요세계: 'Two Jade Orbs Reflecting Each Other', Park An-Gi, 1643)** and **誠信交隣 (성신교린: 'Exchange with Sincerity and Mutual Trust', Amenomori Hōshū, 1728)**, this AI journalism pipeline cross-analyzes news reporting on identical bilateral issues from both Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) media, generating an objective, neutral article in both languages.
+A cross-border AI journalism pipeline that cross-analyzes news reporting on identical bilateral issues from both Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) media, stripping nationalistic framing bias to **automatically synthesize balanced, neutral articles in both Korean and Japanese**.
 
 - **L1 Framing Bias Elimination Architecture**: To eliminate implicit nationalistic framing and emotional undertones, the system employs **English as an intermediate lingua franca** to distill verifiable facts and subjective claims before synthesizing the final bilingual article.
 - **Pydantic Structured Outputs**: Employs OpenAI's latest structured parsing to eliminate regex parsing errors completely and systematically extract a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence).
