@@ -90,7 +90,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 - **Dual-ASR Architecture**: Measures the divergence between Whisper (strong internal LM — approximates intelligibility) and Wav2Vec2-CTC (no LM — captures raw acoustics) to surface the precise pronunciation gap that learners cannot hear in themselves.
 - **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
 - **L1 Interference Classifier**: A rule-based tagger grounded in Contrastive Phonology research (Jang 2016, etc.) that systematically diagnoses 6 typical error types specific to Japanese speakers (vowel epenthesis, coda deletion, laryngeal confusion, etc.). The LLM (Gemini) receives only structured evidence tags — it never computes measurements.
-- **Empirical Validation**: Validated through 4 reproducible experiments including Spearman ρ = −0.702 (score-severity correlation) and 100% G2P accuracy on a held-out 표준발음법 test set.
+- **Empirical Validation**: Validated through 6 reproducible experiments — including real Japanese-accented speech (AI-Hub L2 corpus, 615 clips / 198 speakers: AUC 0.818 separating high- vs low-rated speech, ρ = 0.473 vs human ratings, outperforming the classic GOP baseline on every axis), Spearman ρ = −0.702 (score-severity correlation), and 100% G2P accuracy on held-out rule sets (51/51 context-free, 17/17 morphology-conditioned).
 
 ---
 
@@ -153,9 +153,10 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 
 A deep learning filter developed to detect circumvented profanity (e.g., character separation, special symbol insertion) that traditional morpheme-based detectors fail to identify.
 
-- **Dual-Tokenization & Ensemble**: Engineered a character-level Jamo decomposition tokenizer, creating a Soft-Voting Ensemble (FastText LSTM, Jamo LSTM, Jamo CNN) achieving 93.7% accuracy.
-- **Data Engineering**: Architected a robust asynchronous scraping pipeline to reliably collect 56,000+ unstructured community comments from dynamic web environments.
-- **Full-stack Deployment**: Developed a Django-based REST API and web interface to provide real-time inference and persist prediction logs to MySQL databases.
+- **Dual-Tokenization & Ensemble (team)**: The team built a character-level Jamo decomposition tokenizer and a Soft-Voting Ensemble of FastText LSTM, Jamo LSTM, and Jamo CNN (best single model: Jamo CNN, 93.7% accuracy).
+- **Data Engineering**: Built a multi-community crawler (Selenium + BeautifulSoup, with IP-ban evasion) that collected 56,000+ community comments, and designed the MySQL schema and ingestion pipeline.
+- **Full-stack Deployment**: Integrated the model-serving API with the Django backend and web interface, persisting prediction logs to MySQL.
+- **Contribution (Jiheon Baek)**: Crawling, MySQL schema & data pipeline, Django service integration, labeling.
 
 ---
 
