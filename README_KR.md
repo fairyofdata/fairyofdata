@@ -1,11 +1,15 @@
+**🌐 Available Versions:** [🇺🇸 English](./README.md) | [🇰🇷 한국어](./README_KR.md) | [🇯🇵 日本語](./README_JP.md)
+
+---
+
 # 안녕하세요! 👋
 
 맑은 하늘의 오카야마에서 소프트웨어 엔지니어로 근무하고 있는 **백지헌**입니다.
 
-LLM Application, Machine Learning, NLP, AI Engineering에 관심이 있으며,
-AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
+LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로우 자동화에 깊은 관심을 두고 있으며,
+단순 데모를 넘어 **실제 비즈니스 현장의 제약 조건 속에서 가치를 만드는 Applied AI / Forward-Deployed AI Engineer**를 지향합니다.
 
-현재는 **LLM 기반 애플리케이션**, **AI 자동화**, **MLOps**, **Machine Learning**을 중심으로 역량을 쌓으며 ML Engineer를 목표로 성장하고 있습니다.
+현재는 **LLM 기반 애플리케이션**, **업무 프로세스 및 문서 자동화**, **실용적 AI 솔루션 아키텍처**를 중심으로 역량을 고도화하고 있습니다.
 
 📧 **Email** : fairyofdata@gmail.com  
 💼 **LinkedIn** : https://www.linkedin.com/in/hjbaek/
@@ -178,8 +182,7 @@ AI를 실제 서비스와 업무에 적용하는 개발을 지향합니다.
 
 ## 🎯 Current Focus
 
-- LLM Application Development
-- AI Automation
-- Machine Learning
-- MLOps
-- Building practical AI services
+- Applied AI & Forward-Deployed AI Engineering
+- LLM 기반 애플리케이션 및 워크플로우 자동화
+- 비정형 문서 정보 추출 및 실무 NLP 파이프라인
+- 실무 제약 조건에 견고한 프로덕션 레벨 AI 시스템 구축

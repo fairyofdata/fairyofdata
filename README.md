@@ -1,4 +1,4 @@
-**🌐 Available Versions:**  [🇰🇷 한국어 (Korean)](./README_KR.md) | [🇯🇵 日本語 (Japanese)](./README_JP.md)  
+**🌐 Available Versions:** [🇺🇸 English](./README.md) | [🇰🇷 한국어 (Korean)](./README_KR.md) | [🇯🇵 日本語 (Japanese)](./README_JP.md)  
 
 ---
 
@@ -6,10 +6,10 @@
 
 I'm **Jiheon Baek**, a software engineer living under the famously sunny skies of Okayama, Japan.
 
-I'm passionate about LLM Applications, Machine Learning, NLP, and AI Engineering —
-with a strong focus on building AI systems that work in the real world, not just in demos.
+I specialize in Natural Language Processing (NLP), LLM applications, and workflow automation —
+with a strong focus on engineering **Applied AI and Forward-Deployed AI solutions** that create measurable business impact under real-world operational constraints.
 
-Currently deepening my expertise in **LLM-based applications**, **AI automation**, **MLOps**, and **Machine Learning**, with the goal of growing into a well-rounded ML Engineer.
+Currently deepening my expertise in **production-grade LLM architectures**, **document-centric workflow automation**, and **practical AI systems design**.
 
 📧 **Email** : fairyofdata@gmail.com  
 💼 **LinkedIn** : https://www.linkedin.com/in/hjbaek/
@@ -183,8 +183,7 @@ A deep learning filter developed to detect circumvented profanity (e.g., charact
 
 ## 🎯 Current Focus
 
-- LLM Application Development
-- AI Automation
-- Machine Learning
-- MLOps
-- Building practical AI services
+- Applied AI & Forward-Deployed AI Engineering
+- LLM Application & Workflow Automation
+- Document-centric Information Extraction & NLP
+- Building robust, production-grade AI systems
