@@ -4,7 +4,7 @@
 
 # Hi there! 👋
 
-I'm **Jiheon Baek**, a software engineer living under the famously sunny skies of Okayama, Japan.
+I'm **Jiheon Baek**, an Applied AI engineer living under the famously sunny skies of Okayama, Japan.
 
 I specialize in Natural Language Processing (NLP), LLM applications, and workflow automation —
 with a strong focus on building **LLM and machine-learning systems** and evaluating them reproducibly, so they keep delivering value under real-world operational constraints.
