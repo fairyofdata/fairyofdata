@@ -7,7 +7,7 @@
 I'm **Jiheon Baek**, a software engineer living under the famously sunny skies of Okayama, Japan.
 
 I specialize in Natural Language Processing (NLP), LLM applications, and workflow automation —
-with a strong focus on engineering **Applied AI and Forward-Deployed AI solutions** that create measurable business impact under real-world operational constraints.
+with a strong focus on building **LLM and machine-learning systems** and evaluating them reproducibly, so they keep delivering value under real-world operational constraints.
 
 Currently deepening my expertise in **production-grade LLM architectures**, **document-centric workflow automation**, and **practical AI systems design**.
 
@@ -184,7 +184,7 @@ A deep learning filter developed to detect circumvented profanity (e.g., charact
 
 ## 🎯 Current Focus
 
-- Applied AI & Forward-Deployed AI Engineering
+- Machine Learning Systems & Reproducible Model Evaluation
 - LLM Application & Workflow Automation
 - Document-centric Information Extraction & NLP
 - Building robust, production-grade AI systems

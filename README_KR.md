@@ -7,7 +7,7 @@
 맑은 하늘의 오카야마에서 소프트웨어 엔지니어로 근무하고 있는 **백지헌**입니다.
 
 LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로우 자동화에 깊은 관심을 두고 있으며,
-단순 데모를 넘어 **실제 비즈니스 현장의 제약 조건 속에서 가치를 만드는 Applied AI / Forward-Deployed AI Engineer**를 지향합니다.
+단순 데모를 넘어 **LLM·머신러닝 시스템을 만들고, 재현 가능한 평가로 실제 운영 환경에서 계속 가치를 내는 AI 엔지니어**를 지향합니다.
 
 현재는 **LLM 기반 애플리케이션**, **업무 프로세스 및 문서 자동화**, **실용적 AI 솔루션 아키텍처**를 중심으로 역량을 고도화하고 있습니다.
 
@@ -183,7 +183,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ## 🎯 Current Focus
 
-- Applied AI & Forward-Deployed AI Engineering
+- 머신러닝 시스템 및 재현 가능한 모델 평가
 - LLM 기반 애플리케이션 및 워크플로우 자동화
 - 비정형 문서 정보 추출 및 실무 NLP 파이프라인
 - 실무 제약 조건에 견고한 프로덕션 레벨 AI 시스템 구축
