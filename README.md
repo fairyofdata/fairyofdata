@@ -121,14 +121,32 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ---
 
+#### ✍️ [PragmaticsKR2JP — A Japanese Writing Coach for Korean Speakers](https://github.com/fairyofdata/PragmaticsKR2JP)
+> `Python` `Streamlit` `Structured Outputs` `LLM-as-annotator`
+
+🚧 In progress (Sep 2026 –) · Solo
+
+A personal writing coach that has an LLM tag errors in my Japanese against a fixed error taxonomy. The LLM only marks where each error is and what type it is; code checks that every quote exists in the original, detects edits made without a tag, takes a majority over three gradings, and does the counting. Experiments showed that rules written into the prompt were not reliably followed, so those rules were moved into code checks.
+
+---
+
+#### 🚪 [CascadeDLP — A Cascading DLP Layer with a Local Model as the Gate](https://github.com/fairyofdata/CascadeDLP)
+> `Python` `Local LLM` `MCP` `Pseudonymization`
+
+🚧 In progress (Sep 2026 –) · Solo
+
+A data loss prevention (DLP) layer in which a local model reads a document and rules on it before it is handed to a cloud LLM. Sensitive items are found in order by rules, a human-confirmed glossary, and a local LLM (the detection cascade), and the document is then given one of five rulings: pass, mask, ask the user, local only, or block. Answers to masked documents are restored to the original values locally. Whether a document goes to the cloud is decided by its sensitivity. Built for documents that mix Korean, Japanese and English, and used as MCP tools.
+
+---
+
 #### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
 > `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-A cross-border AI journalism pipeline that cross-analyzes news reporting on identical bilateral issues from both Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) media, stripping nationalistic framing bias to **automatically synthesize balanced, neutral articles in both Korean and Japanese**.
+A pipeline that pairs Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) reporting on the same bilateral issue and **synthesizes one article, in Korean and in Japanese, that separates shared facts from differences in emphasis**. It is designed to reduce nationalistic framing.
 
-- **L1 Framing Bias Elimination Architecture**: To eliminate implicit nationalistic framing and emotional undertones, the system employs **English as an intermediate lingua franca** to distill verifiable facts and subjective claims before synthesizing the final bilingual article.
-- **Pydantic Structured Outputs**: Employs OpenAI's latest structured parsing to eliminate regex parsing errors completely and systematically extract a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence).
-- **Clean Architecture & Full Verification**: Decoupled crawler, pure LLM pipeline, and Streamlit presentation layers backed by a comprehensive unit test suite (10/10 Passed with pytest and mock clients).
+- **English as an Intermediate Language**: Facts and subjective claims are first distilled into structured English summaries before the final bilingual article is written. This step is designed to reduce first-language (L1) framing and emotional undertones.
+- **Schema-Enforced Outputs**: Uses OpenAI structured outputs with strict Pydantic v2 models instead of regex/delimiter parsing, and extracts a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence). The parse failure rate against the live API has not been measured.
+- **Layered Structure & Unit Tests**: Crawler, LLM pipeline and Streamlit layers are decoupled. Ten unit tests, run against a mock OpenAI client, cover schema serialization and pipeline branches.
 
 ---
 
@@ -140,9 +158,9 @@ A cross-border AI journalism pipeline that cross-analyzes news reporting on iden
 A dual-channel phishing detection system combining SMS phishing (smishing) text classification and real-time voice phishing (vishing) detection via STT — built as a team project at Hankuk University of Foreign Studies Data Youth Campus.
 
 - **Triple Ensemble Classifier**: KoBERT (bidirectional context), KoELECTRA (token replacement detection), and Att-BiLSTM with MeCab tokenizer are soft-voted to cover both generalized and domain-specific phishing patterns.
-- **Dual Input Channels**: Text messages are fed directly; voice calls are transcribed to text in real-time via the browser's Web Speech API and sent to the Django backend to route through the same classification pipeline.
+- **Two Channels**: Text messages go to the ensemble. The voice channel is a separate Django demo: it transcribes speech with the browser's Web Speech API and classifies the transcript with its own single LSTM model, not with the ensemble.
 - **Class Imbalance Handling**: SMOTE oversampling applied on the KorCCViD dataset to address severe phishing/normal class skew.
-- **Contribution (Jiheon Baek)**: Att-BiLSTM architecture design, ensemble voting strategy, KorCCViD dataset cleansing and SMOTE pipeline, text classification inference module.
+- **Contribution (Jiheon Baek)**: Proposed the Att-BiLSTM design (a bidirectional LSTM with an attention layer, in place of a plain LSTM) and proposed SMOTE oversampling for the class imbalance.
 
 ---
 
