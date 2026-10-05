@@ -160,7 +160,7 @@ A dual-channel phishing detection system combining SMS phishing (smishing) text 
 - **Triple Ensemble Classifier**: KoBERT (bidirectional context), KoELECTRA (token replacement detection), and Att-BiLSTM with MeCab tokenizer are soft-voted to cover both generalized and domain-specific phishing patterns.
 - **Two Channels**: Text messages go to the ensemble. The voice channel is a separate Django demo: it transcribes speech with the browser's Web Speech API and classifies the transcript with its own single LSTM model, not with the ensemble.
 - **Class Imbalance Handling**: SMOTE oversampling applied on the KorCCViD dataset to address severe phishing/normal class skew.
-- **Contribution (Jiheon Baek)**: Led the Att-BiLSTM work from proposal through implementation (a bidirectional LSTM with an attention layer, in place of a plain LSTM), and proposed and led the SMOTE oversampling for the class imbalance. Some of the detailed work was done jointly with teammates.
+- **Contribution (Jiheon Baek)**: Led the Att-BiLSTM work from proposal through implementation (a bidirectional LSTM with an attention layer, in place of a plain LSTM), the soft-voting strategy for the ensemble, the SMOTE oversampling for the class imbalance, and the text classification inference module. Some of the detailed work was done jointly with teammates.
 
 ---
 
