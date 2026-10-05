@@ -159,7 +159,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 - **3중 앙상블 분류기**: KoBERT(양방향 문맥 이해) + KoELECTRA(토큰 적합성 판별) + Att-BiLSTM(MeCab 형태소 분석 + Attention) 세 모델의 소프트보팅으로 일반화와 도메인 특화 능력을 모두 확보합니다.
 - **두 개의 채널**: 스미싱 문자는 앙상블로 판별합니다. 음성 채널은 별도의 Django 데모로, 브라우저의 Web Speech API로 받아쓴 텍스트를 앙상블이 아닌 전용 단일 LSTM 모델로 판별합니다.
 - **클래스 불균형 대응**: KorCCViD 데이터셋에 SMOTE 오버샘플링을 적용하여 피싱/정상 클래스 불균형을 해소합니다.
-- **담당 파트 (백지헌)**: Att-BiLSTM 구조(단순 LSTM 대신 양방향 LSTM에 어텐션 층을 더하는 구성) 제안, 클래스 불균형에 대한 SMOTE 적용 제안.
+- **담당 파트 (백지헌)**: Att-BiLSTM 구조(단순 LSTM 대신 양방향 LSTM에 어텐션 층을 더하는 구성)를 제안하고 구현까지 주도했습니다. 클래스 불균형에 대한 SMOTE 적용도 제안하고 구현을 주도했습니다. 세부 작업 일부는 팀원과 함께 했습니다.
 
 ---
 
