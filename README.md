@@ -105,7 +105,7 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 - **Data Pipeline**: Crawled **1.38M news articles** for 68 KOSPI companies (2019–2023), bootstrapped labels with GPT-3.5, and fine-tuned a cascade of 6 KoELECTRA classifiers (relevance filtering → sentiment → ESG scoring → pillar classification).
 - **Portfolio Optimization**: A 15-question survey maps user values onto a pillar-by-agency preference matrix, which is injected into Black-Litterman as P/Q views. Final weights maximize the Sharpe ratio under Ledoit-Wolf shrinkage covariance.
-- **Backtesting**: Annual rebalancing over 2020–2024 shows **LEPOS (Sharpe 0.499–0.503 across τ = 0.5 and 1.3, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric.
+- **Backtesting**: Annual rebalancing over 2020–2024 shows **LEPOS (Sharpe 0.499, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric.
 
 ---
 
