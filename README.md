@@ -98,7 +98,8 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
-🏆 Excellence Award — 2024 Graduation Exhibition, Kwangwoon University
+🏆 Excellence Award — 2024 Graduation Exhibition, Kwangwoon University  
+📄 Co-authored paper (2nd author) published in *Computational Economics* (Springer, 2026) — [doi:10.1007/s10614-026-11413-9](https://doi.org/10.1007/s10614-026-11413-9)
 
 A research-grade system that derives transparent ESG scores directly from news text using fine-tuned Korean NLP models, then feeds those scores into a Black-Litterman portfolio optimizer as investor views.
 
