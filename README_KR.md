@@ -142,7 +142,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 #### ⚖️ [LLM_NAKOJA — LLM 기반 한일관계 중립기사 자동생성기](https://github.com/fairyofdata/LLM_NAKOJA)
 > `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-한국(중앙일보)과 일본(요미우리신문)이 같은 사안을 어떻게 보도했는지 짝지어 비교하고, **공통 사실과 강조점의 차이를 나눈 기사 한 편을 한국어와 일본어로 합성하는 파이프라인**입니다. 자국 중심 프레이밍을 줄이는 것을 목표로 합니다.
+한국(중앙일보)과 일본(요미우리신문)이 같은 사안을 어떻게 보도했는지 짝지어 비교하고, **공통 사실과 강조점의 차이를 나눈 기사 한 편을 한국어와 일본어로 합성하는 파이프라인**입니다. 자국 중심 프레이밍을 줄이는 것을 목표로 합니다. 성신여자대학교 SW021 「ChatGPT for Business」 과정의 연장선에서 만든 개인 프로젝트입니다.
 
 - **영어를 중간 언어로 사용**: 최종 기사를 쓰기 전에 사실과 주관적 주장을 구조화된 영어 요약으로 먼저 정리합니다. 이 단계는 모국어(L1) 프레이밍과 감정적 표현을 줄이는 것을 목표로 합니다.
 - **스키마로 출력 강제**: 줄바꿈 분리나 정규표현식 대신 OpenAI 구조화 출력과 Pydantic v2 스키마를 사용하고, 공통 사실과 양국 보도 강조점을 대비하는 '관점 대조표(Perspective Contrast Matrix)'를 추출합니다. 실제 API에서의 파싱 실패율은 측정하지 않았습니다.

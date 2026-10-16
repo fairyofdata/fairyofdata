@@ -143,7 +143,7 @@ A data loss prevention (DLP) layer in which a local model reads a document and r
 #### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
 > `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
 
-A pipeline that pairs Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) reporting on the same bilateral issue and **synthesizes one article, in Korean and in Japanese, that separates shared facts from differences in emphasis**. It is designed to reduce nationalistic framing.
+A pipeline that pairs Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) reporting on the same bilateral issue and **synthesizes one article, in Korean and in Japanese, that separates shared facts from differences in emphasis**. It is designed to reduce nationalistic framing. Built as an individual project extending the SW021 *ChatGPT for Business* program at Sungshin Women's University.
 
 - **English as an Intermediate Language**: Facts and subjective claims are first distilled into structured English summaries before the final bilingual article is written. This step is designed to reduce first-language (L1) framing and emotional undertones.
 - **Schema-Enforced Outputs**: Uses OpenAI structured outputs with strict Pydantic v2 models instead of regex/delimiter parsing, and extracts a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence). The parse failure rate against the live API has not been measured.
