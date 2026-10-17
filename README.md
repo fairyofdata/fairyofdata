@@ -16,76 +16,44 @@ Currently deepening my expertise in **production-grade LLM architectures**, **do
 
 ---
 
-## 🚀 Interests
+## 🎯 Focus
 
-- 🤖 LLM Applications
-- 🧠 Machine Learning & Deep Learning
-- 💬 Natural Language Processing (NLP)
-- ⚙️ AI Engineering
-- ☁️ MLOps
-- 📝 Prompt Engineering
+- 🤖 LLM applications & AI engineering
+- 📏 Reproducible evaluation of ML and LLM systems
+- 💬 NLP & document-centric information extraction
+- ⚙️ MLOps & production-grade AI systems
 
 ---
 
 ## 💻 Tech Stack
 
-### AI / Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black">
-  <img src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white">
-</p>
+**ML & Speech**  
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/Wav2Vec2-0467DF?style=for-the-badge&logo=meta&logoColor=white">
 
-### Frontend
-<p>
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-</p>
+**LLM & Retrieval**  
+<img src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white"> <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white">
 
-### Backend / Database
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-</p>
+**Web & API**  
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 
-### Data Science
-<p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
-  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white">
-</p>
+**Databases**  
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
-### Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-</p>
+**Infrastructure & Tooling**  
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 
 ---
 
 ## 🗂️ Projects
 
-### 🤖 LLM & AI Engineering Projects
+### ⭐ Featured
 
 ---
 
 #### 🧑‍🏫 [PhonemeJP2KR — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during the award-winning project (URFIT - SCIT Master Excellence Award).
+A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during [Songfinder](https://github.com/fairyofdata/LLM_STT_Songfinder), the voice search module I built in the award-winning team project URFIT.
 
 - **Dual-ASR Architecture**: Measures the divergence between Whisper (strong internal LM — approximates intelligibility) and Wav2Vec2-CTC (no LM — captures raw acoustics) to surface the precise pronunciation gap that learners cannot hear in themselves.
 - **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
@@ -105,14 +73,15 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 - **Data Pipeline**: Crawled **1.38M news articles** for 68 KOSPI companies (2019–2023), bootstrapped labels with GPT-3.5, and fine-tuned a cascade of 6 KoELECTRA classifiers (relevance filtering → sentiment → ESG scoring → pillar classification).
 - **Portfolio Optimization**: A 15-question survey maps user values onto a pillar-by-agency preference matrix, which is injected into Black-Litterman as P/Q views. Final weights maximize the Sharpe ratio under Ledoit-Wolf shrinkage covariance.
-- **Backtesting**: Annual rebalancing over 2020–2024 shows **LEPOS (Sharpe 0.499, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric.
+- **Backtesting**: Annual rebalancing over 2020–2024 shows **the optimized ESG portfolio (Sharpe 0.499, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric.
 
 ---
 
-#### 🎵 [LLM_STT_Songfinder — STT-Based AI J-POP Playlist Community](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [Songfinder — Speech-driven J-POP Search & Playlist Generation](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
-🏆 Excellence Award — KITA SCIT Master 47th Cohort Project Presentation
+🏆 Excellence Award (team) — KITA SCIT Master 47th Cohort Project Presentation, for the 6-person team project URFIT  
+👤 My module in URFIT: I built the voice-and-music matching part — STT → FAISS retrieval → recommendation → Spotify playlist — on my own, and refactored it solo in 2026.
 
 A service that finds J-POP songs from vague lyrics or humming, then builds a Spotify playlist with AI-generated title and description — targeting the gap between "I know this song" and being able to search for it.
 
@@ -122,64 +91,27 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ---
 
-#### ✍️ [PragmaticsKR2JP — A Japanese Writing Coach for Korean Speakers](https://github.com/fairyofdata/PragmaticsKR2JP)
-> `Python` `Streamlit` `Structured Outputs` `LLM-as-annotator`
+### 🚧 In Progress
 
-🚧 In progress (Sep 2026 –) · Solo
-
-A personal writing coach that has an LLM tag errors in my Japanese against a fixed error taxonomy. The LLM only marks where each error is and what type it is; code checks that every quote exists in the original, detects edits made without a tag, takes a majority over three gradings, and does the counting. Experiments showed that rules written into the prompt were not reliably followed, so those rules were moved into code checks.
-
----
-
-#### 🚪 [CascadeDLP — A Cascading DLP Layer with a Local Model as the Gate](https://github.com/fairyofdata/CascadeDLP)
-> `Python` `Local LLM` `MCP` `Pseudonymization`
-
-🚧 In progress (Sep 2026 –) · Solo
-
-A data loss prevention (DLP) layer in which a local model reads a document and rules on it before it is handed to a cloud LLM. Sensitive items are found in order by rules, a human-confirmed glossary, and a local LLM (the detection cascade), and the document is then given one of five rulings: pass, mask, ask the user, local only, or block. Answers to masked documents are restored to the original values locally. Whether a document goes to the cloud is decided by its sensitivity. Built for documents that mix Korean, Japanese and English, and used as MCP tools.
+- **[A Japanese writing coach for Korean speakers](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · Sep 2026 –, solo  
+  The LLM only tags where each error is and what type it is, against a fixed taxonomy; quote checks, majority voting over three gradings and the counting all run in code.
+- **[A cascading DLP layer with a local model as the gate](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · Sep 2026 –, solo  
+  A local model reads each document before it reaches a cloud LLM and rules on it — pass, mask, ask the user, local only, or block. Built for documents mixing Korean, Japanese and English, and used as MCP tools.
 
 ---
 
-#### ⚖️ [LLM_NAKOJA — LLM-based Korea-Japan Relations Neutral Article Generator](https://github.com/fairyofdata/LLM_NAKOJA)
-> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
+### 📁 Earlier Projects
 
-A pipeline that pairs Korean (JoongAng Ilbo) and Japanese (Yomiuri Shimbun) reporting on the same bilateral issue and **synthesizes one article, in Korean and in Japanese, that separates shared facts from differences in emphasis**. It is designed to reduce nationalistic framing. Built as an individual project extending the SW021 *ChatGPT for Business* program at Sungshin Women's University.
-
-- **English as an Intermediate Language**: Facts and subjective claims are first distilled into structured English summaries before the final bilingual article is written. This step is designed to reduce first-language (L1) framing and emotional undertones.
-- **Schema-Enforced Outputs**: Uses OpenAI structured outputs with strict Pydantic v2 models instead of regex/delimiter parsing, and extracts a 'Perspective Contrast Matrix' (shared facts, Korean emphasis, Japanese emphasis, framing divergence). The parse failure rate against the live API has not been measured.
-- **Layered Structure & Unit Tests**: Crawler, LLM pipeline and Streamlit layers are decoupled. Ten unit tests, run against a mock OpenAI client, cover schema serialization and pipeline branches.
-
----
-
-#### 🛡️ [AntiPhishingNLP — NLP-based Phishing Detection Service](https://github.com/fairyofdata/AntiPhishingNLP)
-> `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
-
-🏆 Grand Prize (1st) — 2023 KISA Cybersecurity AI·Big Data Challenge Track C
-
-A dual-channel phishing detection system combining SMS phishing (smishing) text classification and real-time voice phishing (vishing) detection via STT — built as a team project at Hankuk University of Foreign Studies Data Youth Campus.
-
-- **Triple Ensemble Classifier**: KoBERT (bidirectional context), KoELECTRA (token replacement detection), and Att-BiLSTM with MeCab tokenizer are soft-voted to cover both generalized and domain-specific phishing patterns.
-- **Two Channels**: Text messages go to the ensemble. The voice channel is a separate Django demo: it transcribes speech with the browser's Web Speech API and classifies the transcript with its own single LSTM model, not with the ensemble.
-- **Class Imbalance Handling**: SMOTE oversampling applied on the KorCCViD dataset to address severe phishing/normal class skew.
-- **Contribution (Jiheon Baek)**: Led the Att-BiLSTM work from proposal through implementation (a bidirectional LSTM with an attention layer, in place of a plain LSTM), the soft-voting strategy for the ensemble, the SMOTE oversampling for the class imbalance, and the text classification inference module. Some of the detailed work was done jointly with teammates.
+- **[Neutral article synthesis from Korean and Japanese coverage](https://github.com/fairyofdata/LLM_NAKOJA)** · `LLM_NAKOJA` · 2024, solo  
+  Pairs JoongAng Ilbo and Yomiuri Shimbun reporting on the same issue and writes one bilingual article that separates shared facts from differences in emphasis, with Pydantic-validated structured outputs. Built on the SW021 *ChatGPT for Business* program at Sungshin Women's University.
+- **[Smishing detection with a three-model ensemble](https://github.com/fairyofdata/AntiPhishingNLP)** · `AntiPhishingNLP` · 2023, team of 5 · 🥇 KISA Cybersecurity AI·Big Data Challenge Track C (1st)  
+  KoBERT, KoELECTRA and Att-BiLSTM soft-voted on SMS text (voice phishing is a separate demo). My part: the Att-BiLSTM design and implementation, the soft-voting strategy, SMOTE and the inference module. A team project at the HUFS Data Youth Campus.
+- **[Detecting disguised profanity at the jamo level](https://github.com/fairyofdata/SepticFilterNLP)** · `SepticFilterNLP` · 2022, team of 6 · 🥇 Samsung SDS Multicampus Big Data Contest (1st)  
+  Catches profanity hidden by separated characters or inserted symbols. My part: crawling (56,000+ comments), the MySQL schema, the data pipeline and Django integration.
 
 ---
 
-#### 🛡️ [SepticFilterNLP — Deep Learning Algorithm-based Profanity Detection Filter](https://github.com/fairyofdata/SepticFilterNLP)
-> `Python` `FastText` `CNN` `LSTM` `Django` `MySQL`
-
-🏆 Grand Prize (1st) — Samsung SDS Multi-Campus Big Data Challenge
-
-A deep learning filter developed to detect circumvented profanity (e.g., character separation, special symbol insertion) that traditional morpheme-based detectors fail to identify.
-
-- **Dual-Tokenization & Ensemble (team)**: The team built a character-level Jamo decomposition tokenizer and a Soft-Voting Ensemble of FastText LSTM, Jamo LSTM, and Jamo CNN (best single model: Jamo CNN, 93.7% accuracy).
-- **Data Engineering**: Built a multi-community crawler (Selenium + BeautifulSoup, with IP-ban evasion) that collected 56,000+ community comments, and designed the MySQL schema and ingestion pipeline.
-- **Full-stack Deployment**: Integrated the model-serving API with the Django backend and web interface, persisting prediction logs to MySQL.
-- **Contribution (Jiheon Baek)**: Crawling, MySQL schema & data pipeline, Django service integration, labeling.
-
----
-
-## 📚 Experience
+## 📚 Education & Training
 
 - **B.S. in Information Convergence (Data Science)** [@Kwangwoon University](https://ic.kw.ac.kr:501/program/process.php)  
 - **K-Digital Training**: Data Science Track [@Multicampus (Samsung SDS)](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM)  
@@ -198,12 +130,3 @@ A deep learning filter developed to detect circumvented profanity (e.g., charact
 - 🥈 **Kwangwoon University 8th Industry-Academia SW Project Exhibition** (KWU, 2024) — **Excellence Award (2nd)**  
 - 🥈 **Kwangwoon University Dept. of Information Convergence Graduation Exhibition** (KWU, 2024) — **Excellence Award (2nd)**  
 - 🥈 **KITA SCIT Master 47th Cohort Project Presentation** (KITA, 2025) — **Excellence Award (2nd)**  
-
----
-
-## 🎯 Current Focus
-
-- Machine Learning Systems & Reproducible Model Evaluation
-- LLM Application & Workflow Automation
-- Document-centric Information Extraction & NLP
-- Building robust, production-grade AI systems

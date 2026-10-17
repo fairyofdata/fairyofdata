@@ -16,79 +16,47 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ---
 
-## 🚀 興味・関心
+## 🎯 注力している領域
 
-- 🤖 LLMアプリケーション
-- 🧠 機械学習・深層学習
-- 💬 自然言語処理（NLP）
-- ⚙️ AIエンジニアリング
-- ☁️ MLOps
-- 📝 プロンプトエンジニアリング
+- 🤖 LLMアプリケーションとAIエンジニアリング
+- 📏 機械学習・LLMシステムの再現可能な評価
+- 💬 自然言語処理と文書からの情報抽出
+- ⚙️ MLOpsと実運用に耐えるAIシステム
 
 ---
 
 ## 💻 技術スタック
 
-### AI / 機械学習
-<p>
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black">
-  <img src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white">
-</p>
+**機械学習・音声**  
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/Wav2Vec2-0467DF?style=for-the-badge&logo=meta&logoColor=white">
 
-### フロントエンド
-<p>
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-</p>
+**LLM・検索**  
+<img src="https://img.shields.io/badge/OpenAI_API-74AA9C?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white"> <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white">
 
-### バックエンド / データベース
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-</p>
+**Web・API**  
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 
-### データサイエンス
-<p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
-  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white">
-</p>
+**データベース**  
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
-### ツール
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-</p>
+**インフラ・開発環境**  
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 
 ---
 
 ## 🗂️ プロジェクト
 
-### 🤖 LLM & AI エンジニアリング プロジェクト
+### ⭐ 主要プロジェクト
 
 ---
 
 #### 🧑‍🏫 [PhonemeJP2KR — 日本語話者向け・音素レベルの韓国語発音コーチング](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-日本語を母語とする学習者が韓国語の発音を矯正できるよう設計されたCAPT（Computer-Assisted Pronunciation Training）Webアプリケーションです。優秀賞を受賞した音声認識検索プロジェクト（URFIT）で確立したASR（Whisper）および音声処理パイプライン技術を拡張し、より高度な音素レベルの発音診断システムとして設計しました。
+日本語を母語とする学習者が韓国語の発音を矯正できるよう設計されたCAPT（Computer-Assisted Pronunciation Training）Webアプリケーションです。優秀賞を受賞したチームプロジェクトURFITで担当した音声検索モジュール（[Songfinder](https://github.com/fairyofdata/LLM_STT_Songfinder)）で確立したASR（Whisper）および音声処理パイプライン技術を拡張し、より高度な音素レベルの発音診断システムとして設計しました。
 
 - **デュアルASRアーキテクチャ**: 言語モデルを内蔵したWhisper（知的誤り補正）と、言語モデルのないWav2Vec2-CTC（物理的発声の捕捉）の差分を測定することで、学習者自身が気づけない発音エラーを数値化します。
-- **決定論的G2Pエンジン**: 標準発音法（7終声・連音・鼻音化・激音化など）のルールを純粋なPythonで直接実装し、LLMの幻覚（ハルシネーション）を原천封じ、同一入力に対して常に同一スコアを保証します。
+- **決定論的G2Pエンジン**: 標準発音法（7終声・連音・鼻音化・激音化など）のルールを純粋なPythonで直接実装し、LLMの幻覚（ハルシネーション）を根本から防ぎ、同一入力に対して常に同一スコアを保証します。
 - **L1干渉エラー分類器**: 対照音韻論の研究（Jang 2016など）に学術的根拠を置いたルールベースのタガーで、日本語話者に体系的に現れる母音挿入・終声脱落・三項対立の崩壊など6種のエラーを診断します。LLM（Gemini）は構造化された証拠のみを受け取ってカタカナ可視化とコーチングフィードバックを担当します。
 - **実証的検証**: 実際の日本語話者音声（AI-Hub L2コーパス、615発話・198名）で上位／下位評価の判別 AUC 0.818、人手評価との相関 ρ = 0.473 を示し、古典的な GOP ベースラインを全指標で上回りました。加えて Spearman ρ = −0.702（スコアと誤り重篤度の相関）、G2P精度100%（51/51・17/17、held-out）など、6つの再現可能な実験でシステムの有効性を検証しました。
 
@@ -104,14 +72,15 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 - **データパイプライン**: KOSPI 68社のニュース**138万件**を収集し、GPT-3.5でラベルのブートストラッピングを行った後、KoELECTRAをファインチューニングして6段階の分類・回帰モデルのカスケードを構築しました。
 - **ポートフォリオ最適化**: ユーザーアンケート（15問）がE/S/G選好をエージェンシー別手法の重みに変換され、Black-Littermanのビュー（P, Q）として注入後、Ledoit-Wolfシュリンケージ共分散に基づく最大シャープ比最適化を実施します。
-- **バックテスト**: 2020〜2024年の年次リバランス基準で、KOSPI（Sharpe 0.190）・ESG ETF（0.251）対比、**LEPOS（0.499、最大ドローダウン 0.187）**が全指標で上回ることを実証しました。
+- **バックテスト**: 2020〜2024年の年次リバランス基準で、KOSPI（Sharpe 0.190）・ESG ETF（0.251）対比、**最適化したESGポートフォリオ（0.499、最大ドローダウン 0.187）**が全指標で上回ることを実証しました。
 
 ---
 
-#### 🎵 [LLM_STT_Songfinder — 音声認識ベース AI J-POPプレイリストコミュニティ](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [Songfinder — 音声によるJ-POP検索とプレイリスト生成](https://github.com/fairyofdata/LLM_STT_Songfinder)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
-🏆 韓国貿易協会 SCIT Master 47期 プロジェクト発表会 **優秀賞**
+🏆 韓国貿易協会 SCIT Master 47期 プロジェクト発表会 **優秀賞**（6名のチームプロジェクトURFITとして受賞）  
+👤 URFITのうち、音声・音楽マッチングの部分（STT → FAISS検索 → 推薦 → Spotifyプレイリスト）を一人で実装し、2026年のリファクタリングも一人で行いました。
 
 「なんとなく覚えている歌詞」や鼻歌だけで聴きたいJ-POPを探し出し、AIが好みに合った類似曲を推薦してSpotifyプレイリストを自動生成するコミュニティサービスです。
 
@@ -121,64 +90,27 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ---
 
-#### ✍️ [PragmaticsKR2JP — 韓国語話者のための日本語作文コーチ](https://github.com/fairyofdata/PragmaticsKR2JP)
-> `Python` `Streamlit` `Structured Outputs` `LLM-as-annotator`
+### 🚧 開発中
 
-🚧 開発中（2026年9月 ～）・個人開発
-
-日本語で書いた文章の誤りを、固定の誤り分類表に沿ってLLMにタグ付けさせる個人用の作文コーチです。LLMが付けるのは誤りの位置と種類だけで、引用が原文にあるかの照合、タグなしで直された箇所の検出、3回採点の多数決、集計はコードが行います。プロンプトで指示した規則が守られないことを実験で確かめ、その規則をコードの検査に移しました。
-
----
-
-#### 🚪 [CascadeDLP — ローカルモデルが関門に立つ、カスケード型DLPレイヤー](https://github.com/fairyofdata/CascadeDLP)
-> `Python` `Local LLM` `MCP` `Pseudonymization`
-
-🚧 開発中（2026年9月 ～）・個人開発
-
-文書をクラウドのLLMに渡す前に、ローカルのモデルが先に読んで判定する、データ漏えい防止（DLP）のレイヤーです。機微な項目は、ルール、人が確定した用語集、ローカルLLMの順に探し（検出カスケード）、その結果から文書を「通過・伏せて送信・利用者に確認・ローカルのみ・拒否」のいずれかに判定します。伏せて送った文書の回答は、ローカルで元の値に戻します。クラウドに渡すかどうかは文書の機微度で決めます。韓国語・日本語・英語が混在する文書が対象で、MCPツールとして使います。
+- **[韓国語話者のための日本語作文コーチ](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · 2026年9月 ～・個人  
+  固定の誤り分類表に沿って、LLMは誤りの位置と種類だけを付けます。引用の原文照合、3回採点の多数決、集計はすべてコードが行います。
+- **[ローカルモデルが関門に立つ、カスケード型DLPレイヤー](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · 2026年9月 ～・個人  
+  文書をクラウドのLLMに渡す前にローカルのモデルが読み、「通過・伏せて送信・利用者に確認・ローカルのみ・拒否」を判定します。韓国語・日本語・英語が混在する文書が対象で、MCPツールとして使います。
 
 ---
 
-#### ⚖️ [LLM_NAKOJA — LLMベース日韓関係中立記事自動生成システム](https://github.com/fairyofdata/LLM_NAKOJA)
-> `Python` `OpenAI (GPT-4o-mini)` `Pydantic Structured Outputs` `Selenium` `Streamlit` `Pytest`
+### 📁 その他のプロジェクト
 
-韓国（中央日報）と日本（読売新聞）が同じ事案をどう報じたかを対にして比べ、**共通の事実と強調点の違いを分けた一本の記事を、日本語と韓国語の両方で合成するパイプライン**です。自国中心のフレーミングを減らすことを狙いとしています。誠信女子大学 SW021「ChatGPT for Business」課程の発展として制作した個人プロジェクトです。
-
-- **英語を中間言語として使う**: 最終の記事を書く前に、事実と主観的な主張を構造化した英語の要約にまとめます。この段階は、母語（L1）特有のフレーミングや感情的な言い回しを減らすことを狙いとしています。
-- **スキーマによる出力の強制**: 改行分割や正規表現の代わりに、OpenAIの構造化出力と Pydantic v2 スキーマを採用し、両国の論点対照表（Perspective Contrast Matrix）を抽出します。実APIでのパース失敗率は未計測です。
-- **層の分離と単体テスト**: スクレイパー、LLMパイプライン、UIを分離。単体テスト10件（Mock OpenAI クライアント使用）でスキーマの直列化とパイプラインの分岐を検証しています。
-
----
-
-#### 🛡️ [AntiPhishingNLP — NLPベースのフィッシング検出サービス](https://github.com/fairyofdata/AntiPhishingNLP)
-> `Python` `KoBERT` `KoELECTRA` `Att-BiLSTM` `Django` `STT`
-
-🏆 2023 韓国インターネット振興院（KISA） サイバーセキュリティAI・Big Dataチャレンジ Track C — **最優秀賞 (1位)**
-
-SMSフィッシング（スミッシング）と音声フィッシング（ボイスフィッシング）の両チャネルを同時に検出するNLPベースのフィッシング検知システムです。韓国外国語大学 データ青年キャンパス チームプロジェクト。
-
-- **三重アンサンブル分類器**: KoBERT（双方向文脈理解）・KoELECTRA（トークン適切性判別）・Att-BiLSTM（MeCab形態素解析+Attention）のソフトボーティングで、汎化能力とドメイン特化能力を両立します。
-- **2つのチャネル**: SMSテキストはアンサンブルで判別します。音声チャネルは別の Django デモで、ブラウザの Web Speech API で文字起こしした結果を、アンサンブルではなく専用の単一 LSTM モデルで判別します。
-- **クラス不均衡対応**: KorCCViDデータセットにSMOTEオーバーサンプリングを適用し、フィッシング/正常クラスの不均衡を解消します。
-- **担当パート（白知憲）**: Att-BiLSTM の構成（単純な LSTM の代わりに、双方向 LSTM に Attention 層を加える）の提案から実装まで、アンサンブルのソフト投票戦略、クラス不均衡に対する SMOTE の適用、テキスト分類の推論モジュールを主導しました。細部の一部はチームメンバーと共同で行いました。
+- **[日韓の報道を比べて中立的な記事にまとめる](https://github.com/fairyofdata/LLM_NAKOJA)** · `LLM_NAKOJA` · 2024・個人  
+  同じ事案を報じた中央日報と読売新聞の記事を対にし、共通の事実と強調点の違いを分けた一本の記事を日韓両言語で合成します（Pydanticで出力を検証）。誠信女子大学 SW021「ChatGPT for Business」課程の発展として制作しました。
+- **[3モデルのアンサンブルによるスミッシング検出](https://github.com/fairyofdata/AntiPhishingNLP)** · `AntiPhishingNLP` · 2023・5名チーム · 🥇 KISA サイバーセキュリティAI・ビッグデータチャレンジ Track C 最優秀賞（1位）  
+  SMS本文をKoBERT・KoELECTRA・Att-BiLSTMのソフトボーティングで判別します（ボイスフィッシングは別デモ）。担当：Att-BiLSTMの設計・実装、ソフトボーティング戦略、SMOTE、推論モジュール。韓国外国語大学 データ青年キャンパスのチームプロジェクトです。
+- **[字母単位で回避型の悪口を検出する](https://github.com/fairyofdata/SepticFilterNLP)** · `SepticFilterNLP` · 2022・6名チーム · 🥇 サムスンSDS マルチキャンパス ビッグデータ活用コンテスト 最優秀賞（1位）  
+  文字の分離や記号の挿入で隠された悪口を検出します。担当：クローリング（5万6000件以上のコメント）、MySQLスキーマ、データパイプライン、Django連携。
 
 ---
 
-#### 🛡️ [SepticFilterNLP — ディープラーニングアルゴリズムに基づく悪口検出フィルター](https://github.com/fairyofdata/SepticFilterNLP)
-> `Python` `FastText` `CNN` `LSTM` `Django` `MySQL`
-
-🏆 最優秀賞 (1位) — サムスンSDS マルチキャンパス ビッグデータ活用コンテスト
-
-従来の形態素ベースのフィルターでは検出できない、巧妙に回避された悪口（文字の分離、特殊記号の挿入など）を検出するために開発されたディープラーニングフィルターです。
-
-- **デュアルトークン化とアンサンブル（チーム）**: チームとして、文字レベルの子音・母音（字母）分離トークナイザーと3モデル（FastText LSTM、Jamo LSTM、Jamo CNN）のソフトボーティングアンサンブルを構築しました（単一モデル最高精度：Jamo CNN 93.7%）。
-- **データエンジニアリング**: Selenium + BeautifulSoup によるマルチコミュニティ・クローラー（IPブロック回避を含む）を構築して5万6000件以上のコメントを収集し、MySQLスキーマと取り込みパイプラインを設計しました。
-- **フルスタックデプロイ**: モデル推論APIをDjangoバックエンドとWebインターフェースに連携し、予測ログをMySQLに保存しました。
-- **担当パート（白知憲）**: クローリング、MySQLスキーマ・データパイプライン設計、Djangoサービス連携、ラベリング。
-
----
-
-## 📚 経歴
+## 📚 学歴・研修
 
 - **情報融合学科 データサイエンス専攻 学士** [@光云大学](https://ic.kw.ac.kr:501/program/process.php)  
 - **K-デジタルトレーニング**: データサイエンスコース [@マルチキャンパス（サムスンSDS）](https://www.multicampus.com/em/enrolment/courseDetai?p_menu=NzUjU1VC&p_gubun=Qw==&corsCd=FA00NM)  
@@ -197,12 +129,3 @@ SMSフィッシング（スミッシング）と音声フィッシング（ボ�
 - 🥈 **光云大学 第8回 産学協力SWプロジェクト** (光云大学, 2024) - **優秀賞 (2位)**  
 - 🥈 **光云大学 情報融合学科 卒業作品展示会** (光云大学, 2024) - **優秀賞 (2位)**  
 - 🥈 **韓国貿易協会 第47期 SCIT Master プロジェクト発表会** (KITA, 2025) - **優秀賞 (2位)**  
-
----
-
-## 🎯 現在注力している領域 (Current Focus)
-
-- 機械学習システムと再現可能なモデル評価
-- LLMベースのアプリケーションおよびワークフロー自動化
-- 非構造化ドキュメントの情報抽出・実務NLPパイプライン
-- 現場の制約条件に耐えうる堅牢な実用AIシステムの構築
