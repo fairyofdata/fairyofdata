@@ -53,7 +53,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 #### 🧑‍🏫 [PhonemeJP2KR — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-일본어 모어 화자가 한국어 발음을 교정할 수 있도록 설계된 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다. 우수상을 받은 팀 프로젝트 URFIT에서 맡은 음성 검색 모듈([Songfinder](https://github.com/fairyofdata/LLM_STT_Songfinder))에서 정립한 ASR(Whisper) 및 오디오 처리 파이프라인 기술을 확장하여, 한층 고도화된 음소 수준의 발음 진단 시스템으로 설계했습니다.
+일본어 모어 화자가 한국어 발음을 교정할 수 있도록 설계된 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다. 우수상을 받은 팀 프로젝트 URFIT에서 맡은 음성 검색 모듈([Songfinder](https://github.com/fairyofdata/RAGSTT4Lyrics))에서 정립한 ASR(Whisper) 및 오디오 처리 파이프라인 기술을 확장하여, 한층 고도화된 음소 수준의 발음 진단 시스템으로 설계했습니다.
 
 - **듀얼 ASR 아키텍처**: 언어모델이 내장된 Whisper(지능적 오류 보정)와 언어모델이 없는 Wav2Vec2-CTC(물리적 발성 포착)의 차이를 측정하여 학습자 스스로 인지하지 못하는 발음 오류를 수치화합니다.
 - **결정론적 G2P 엔진**: 표준발음법(7종성, 연음, 비음화, 격음화 등) 규칙을 순수 Python으로 직접 구현하여 LLM 환각을 원천 차단하고 동일 입력에 대해 항상 동일한 점수를 보장합니다.
@@ -62,7 +62,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ---
 
-#### 📊 [LLM_ESG_POS — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [PortfolioOpt4ESG — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 광운대학교 제8회 산학협력 SW 프로젝트 **우수상** · 정보융합학과 졸업전시회 **우수상**  
@@ -76,7 +76,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ---
 
-#### 🎵 [Songfinder — 음성으로 찾는 J-POP 검색과 플레이리스트 생성](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [Songfinder — 음성으로 찾는 J-POP 검색과 플레이리스트 생성](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 한국무역협회 SCIT Master 47기 프로젝트 발표회 **우수상**(6인 팀 프로젝트 URFIT으로 수상)  
@@ -101,7 +101,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ### 📁 그 밖의 프로젝트
 
-- **[한일 보도를 비교해 중립 기사로 합성](https://github.com/fairyofdata/LLM_NAKOJA)** · `LLM_NAKOJA` · 2024 · 개인  
+- **[한일 보도를 비교해 중립 기사로 합성](https://github.com/fairyofdata/Neutralize4KRJP)** · `Neutralize4KRJP` · 2024 · 개인  
   같은 사안을 다룬 중앙일보·요미우리신문 기사를 짝지어, 공통 사실과 강조점의 차이를 나눈 기사 한 편을 한·일 두 언어로 합성합니다(Pydantic으로 출력 검증). 성신여자대학교 SW021 「ChatGPT for Business」 과정의 연장선에서 만든 개인 프로젝트입니다.
 - **[세 모델 앙상블로 스미싱 탐지](https://github.com/fairyofdata/AntiPhishingNLP)** · `AntiPhishingNLP` · 2023 · 5인 팀 · 🥇 KISA 사이버보안 AI·빅데이터 챌린지 Track C 최우수상(1위)  
   문자 메시지를 KoBERT·KoELECTRA·Att-BiLSTM 소프트 보팅으로 분류합니다(보이스피싱은 별도 데모). 담당: Att-BiLSTM 설계·구현, 소프트 보팅 전략, SMOTE, 추론 모듈. 한국외국어대학교 데이터청년캠퍼스 팀 프로젝트입니다.

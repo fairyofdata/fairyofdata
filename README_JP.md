@@ -53,7 +53,7 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 #### 🧑‍🏫 [PhonemeJP2KR — 日本語話者向け・音素レベルの韓国語発音コーチング](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-日本語を母語とする学習者が韓国語の発音を矯正できるよう設計されたCAPT（Computer-Assisted Pronunciation Training）Webアプリケーションです。優秀賞を受賞したチームプロジェクトURFITで担当した音声検索モジュール（[Songfinder](https://github.com/fairyofdata/LLM_STT_Songfinder)）で確立したASR（Whisper）および音声処理パイプライン技術を拡張し、より高度な音素レベルの発音診断システムとして設計しました。
+日本語を母語とする学習者が韓国語の発音を矯正できるよう設計されたCAPT（Computer-Assisted Pronunciation Training）Webアプリケーションです。優秀賞を受賞したチームプロジェクトURFITで担当した音声検索モジュール（[Songfinder](https://github.com/fairyofdata/RAGSTT4Lyrics)）で確立したASR（Whisper）および音声処理パイプライン技術を拡張し、より高度な音素レベルの発音診断システムとして設計しました。
 
 - **デュアルASRアーキテクチャ**: 言語モデルを内蔵したWhisper（知的誤り補正）と、言語モデルのないWav2Vec2-CTC（物理的発声の捕捉）の差分を測定することで、学習者自身が気づけない発音エラーを数値化します。
 - **決定論的G2Pエンジン**: 標準発音法（7終声・連音・鼻音化・激音化など）のルールを純粋なPythonで直接実装し、LLMの幻覚（ハルシネーション）を根本から防ぎ、同一入力に対して常に同一スコアを保証します。
@@ -62,7 +62,7 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ---
 
-#### 📊 [LLM_ESG_POS — LLMベースのESG重視ポートフォリオ最適化サービス](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [PortfolioOpt4ESG — LLMベースのESG重視ポートフォリオ最適化サービス](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 光云大学 第8回 産学協力SWプロジェクト **優秀賞** · 情報融合学科 卒業展示会 **優秀賞**  
@@ -76,7 +76,7 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ---
 
-#### 🎵 [Songfinder — 音声によるJ-POP検索とプレイリスト生成](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [Songfinder — 音声によるJ-POP検索とプレイリスト生成](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 韓国貿易協会 SCIT Master 47期 プロジェクト発表会 **優秀賞**（6名のチームプロジェクトURFITとして受賞）  
@@ -101,7 +101,7 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ### 📁 その他のプロジェクト
 
-- **[日韓の報道を比べて中立的な記事にまとめる](https://github.com/fairyofdata/LLM_NAKOJA)** · `LLM_NAKOJA` · 2024・個人  
+- **[日韓の報道を比べて中立的な記事にまとめる](https://github.com/fairyofdata/Neutralize4KRJP)** · `Neutralize4KRJP` · 2024・個人  
   同じ事案を報じた中央日報と読売新聞の記事を対にし、共通の事実と強調点の違いを分けた一本の記事を日韓両言語で合成します（Pydanticで出力を検証）。誠信女子大学 SW021「ChatGPT for Business」課程の発展として制作しました。
 - **[3モデルのアンサンブルによるスミッシング検出](https://github.com/fairyofdata/AntiPhishingNLP)** · `AntiPhishingNLP` · 2023・5名チーム · 🥇 KISA サイバーセキュリティAI・ビッグデータチャレンジ Track C 最優秀賞（1位）  
   SMS本文をKoBERT・KoELECTRA・Att-BiLSTMのソフトボーティングで判別します（ボイスフィッシングは別デモ）。担当：Att-BiLSTMの設計・実装、ソフトボーティング戦略、SMOTE、推論モジュール。韓国外国語大学 データ青年キャンパスのチームプロジェクトです。

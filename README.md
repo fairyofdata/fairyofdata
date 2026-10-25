@@ -53,7 +53,7 @@ Currently deepening my expertise in **production-grade LLM architectures**, **do
 #### 🧑‍🏫 [PhonemeJP2KR — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during [Songfinder](https://github.com/fairyofdata/LLM_STT_Songfinder), the voice search module I built in the award-winning team project URFIT.
+A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during [Songfinder](https://github.com/fairyofdata/RAGSTT4Lyrics), the voice search module I built in the award-winning team project URFIT.
 
 - **Dual-ASR Architecture**: Measures the divergence between Whisper (strong internal LM — approximates intelligibility) and Wav2Vec2-CTC (no LM — captures raw acoustics) to surface the precise pronunciation gap that learners cannot hear in themselves.
 - **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
@@ -62,7 +62,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application designed to he
 
 ---
 
-#### 📊 [LLM_ESG_POS — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/LLM_ESG_POS)
+#### 📊 [PortfolioOpt4ESG — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
@@ -77,7 +77,7 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 ---
 
-#### 🎵 [Songfinder — Speech-driven J-POP Search & Playlist Generation](https://github.com/fairyofdata/LLM_STT_Songfinder)
+#### 🎵 [Songfinder — Speech-driven J-POP Search & Playlist Generation](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 Excellence Award (team) — KITA SCIT Master 47th Cohort Project Presentation, for the 6-person team project URFIT  
@@ -102,7 +102,7 @@ A service that finds J-POP songs from vague lyrics or humming, then builds a Spo
 
 ### 📁 Earlier Projects
 
-- **[Neutral article synthesis from Korean and Japanese coverage](https://github.com/fairyofdata/LLM_NAKOJA)** · `LLM_NAKOJA` · 2024, solo  
+- **[Neutral article synthesis from Korean and Japanese coverage](https://github.com/fairyofdata/Neutralize4KRJP)** · `Neutralize4KRJP` · 2024, solo  
   Pairs JoongAng Ilbo and Yomiuri Shimbun reporting on the same issue and writes one bilingual article that separates shared facts from differences in emphasis, with Pydantic-validated structured outputs. Built on the SW021 *ChatGPT for Business* program at Sungshin Women's University.
 - **[Smishing detection with a three-model ensemble](https://github.com/fairyofdata/AntiPhishingNLP)** · `AntiPhishingNLP` · 2023, team of 5 · 🥇 KISA Cybersecurity AI·Big Data Challenge Track C (1st)  
   KoBERT, KoELECTRA and Att-BiLSTM soft-voted on SMS text (voice phishing is a separate demo). My part: the Att-BiLSTM design and implementation, the soft-voting strategy, SMOTE and the inference module. A team project at the HUFS Data Youth Campus.
