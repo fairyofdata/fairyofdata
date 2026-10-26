@@ -1,8 +1,8 @@
-**🌐 Available Versions:** [🇺🇸 English](./README.md) | [🇰🇷 한국어 (Korean)](./README_KR.md) | [🇯🇵 日本語 (Japanese)](./README_JP.md)  
-
----
+<!-- Source: README_KR.md (Korean is the source; English and Japanese are translations) · synced 2026-10-26 -->
 
 # Hi there! 👋
+
+[English](README.md) · [한국어](README_KR.md) · [日本語](README_JP.md)
 
 I'm **Jiheon Baek**, an Applied AI engineer living under the famously sunny skies of Okayama, Japan.
 
@@ -53,16 +53,16 @@ Currently deepening my expertise in **production-grade LLM architectures**, **do
 #### 🧑‍🏫 [PhonemeJP2KR — Phoneme-level Korean Pronunciation Coaching for Japanese Speakers](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-A CAPT (Computer-Assisted Pronunciation Training) web application designed to help Japanese native speakers identify and correct Korean pronunciation errors at the phoneme level. Developed by expanding the ASR (Whisper) and speech-processing pipelines refined during [Songfinder](https://github.com/fairyofdata/RAGSTT4Lyrics), the voice search module I built in the award-winning team project URFIT.
+A CAPT (Computer-Assisted Pronunciation Training) web application that helps Japanese native speakers find and fix Korean pronunciation errors at the phoneme level. It extends the ASR (Whisper) and audio pipeline of the voice search module I built in the team project URFIT ([RAGSTT4Lyrics](https://github.com/fairyofdata/RAGSTT4Lyrics)).
 
-- **Dual-ASR Architecture**: Measures the divergence between Whisper (strong internal LM — approximates intelligibility) and Wav2Vec2-CTC (no LM — captures raw acoustics) to surface the precise pronunciation gap that learners cannot hear in themselves.
-- **Deterministic G2P Engine**: Implements Standard Korean phonological rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as a pure-Python pipeline — no external dependencies, no hallucinations, and fully reproducible scores.
-- **L1 Interference Classifier**: A rule-based tagger grounded in Contrastive Phonology research (Jang 2016, etc.) that systematically diagnoses 6 typical error types specific to Japanese speakers (vowel epenthesis, coda deletion, laryngeal confusion, etc.). The LLM (Gemini) receives only structured evidence tags — it never computes measurements.
-- **Empirical Validation**: Validated through 6 reproducible experiments — including real Japanese-accented speech (AI-Hub L2 corpus, 615 clips / 198 speakers: AUC 0.818 separating high- vs low-rated speech, ρ = 0.473 vs human ratings, outperforming the classic GOP baseline on every axis), Spearman ρ = −0.702 (score-severity correlation), and 100% G2P accuracy on held-out rule sets (51/51 context-free, 17/17 morphology-conditioned).
+- **Dual ASR**: measures the gap between Whisper (strong internal LM — what a native listener understands) and Wav2Vec2-CTC (no LM — what was actually said) to surface errors learners cannot hear in themselves.
+- **Deterministic G2P engine**: Standard Korean pronunciation rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as pure-Python rules, so the same input always gets the same score.
+- **L1 interference classifier**: a rule-based tagger grounded in contrastive phonology (Jang 2016, etc.) that diagnoses 9 error types typical of Japanese speakers (vowel epenthesis, coda deletion, lenis/aspirated/tense confusion, etc.). The katakana view also comes from a fixed rule table; the LLM (Gemini) receives structured evidence and writes only the coaching text.
+- **Empirical validation**: on real Japanese-accented speech (AI-Hub L2 corpus, 615 clips / 198 speakers) — AUC 0.818 separating high- vs low-rated speech and ρ = 0.473 vs human ratings, ahead of the classic GOP baseline on every axis. Score vs. error severity: ρ = −0.702 (−0.599 in a re-run with re-synthesized audio; both are kept). G2P accuracy 100% on held-out rules (51/51 context-free, 17/17 morphology-conditioned). Six experiments have been run; a recruited-rater study is designed but not yet run.
 
 ---
 
-#### 📊 [PortfolioOpt4ESG — LLM-based ESG-Focused Portfolio Optimization Service](https://github.com/fairyofdata/PortfolioOpt4ESG)
+#### 📊 [PortfolioOpt4ESG — LLM-based ESG-Focused Portfolio Optimization (LEPOS)](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
@@ -73,28 +73,28 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 - **Data Pipeline**: Crawled **1.38M news articles** for 68 KOSPI companies (2019–2023), bootstrapped labels with GPT-3.5, and fine-tuned a cascade of 6 KoELECTRA classifiers (relevance filtering → sentiment → ESG scoring → pillar classification).
 - **Portfolio Optimization**: A 15-question survey maps user values onto a pillar-by-agency preference matrix, which is injected into Black-Litterman as P/Q views. Final weights maximize the Sharpe ratio under Ledoit-Wolf shrinkage covariance.
-- **Backtesting**: Annual rebalancing over 2020–2024 shows **the optimized ESG portfolio (Sharpe 0.499, max drawdown 0.187)** outperforming KOSPI (0.190) and ESG ETF (0.251) on every metric.
+- **Backtesting**: Annual rebalancing over 2020–2024 shows **the optimized ESG portfolio (Sharpe 0.499, max drawdown 0.187)** ahead of KOSPI (0.190) and ESG ETF (0.251) on every metric (the repository's reproduction; limitations such as survivorship bias and in-sample τ are stated in its README).
 
 ---
 
-#### 🎵 [Songfinder — Speech-driven J-POP Search & Playlist Generation](https://github.com/fairyofdata/RAGSTT4Lyrics)
+#### 🎵 [RAGSTT4Lyrics — Find a J-POP Song from Half-Remembered Lyrics (Songfinder)](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 Excellence Award (team) — KITA SCIT Master 47th Cohort Project Presentation, for the 6-person team project URFIT  
-👤 My module in URFIT: I built the voice-and-music matching part — STT → FAISS retrieval → recommendation → Spotify playlist — on my own, and refactored it solo in 2026.
+👤 My module in URFIT: I built the voice-and-music matching part — STT → FAISS retrieval → recommendation → Spotify playlist — on my own, and did the 2026 refactoring and evaluation solo.
 
-A service that finds J-POP songs from vague lyrics or humming, then builds a Spotify playlist with AI-generated title and description — targeting the gap between "I know this song" and being able to search for it.
+Say or type lyrics you half remember and it finds the J-POP song, recommends similar ones and saves them as a Spotify playlist. It does not search from humming without words.
 
-- **Multimodal Search Pipeline**: Whisper (STT) converts voice input to text; SentenceTransformer embeddings + FAISS index run vector similarity search across a lyrics dataset to retrieve the best-matching tracks.
-- **AI Playlist Generation**: GPT-3.5 analyzes the retrieved tracks and generates a creative playlist title and description, then saves it directly to the user's Spotify account via OAuth API.
-- **Architecture Refactor**: Migrated from a Hugging Face Space monolith to a clean microservice architecture (Angular 17+ frontend / FastAPI backend), enabling flexible deployment to Firebase Hosting, Cloud Run, and beyond.
+- **Voice search**: lyrics transcribed by Whisper (STT) are searched with SentenceTransformer embeddings and FAISS. No LLM is involved in finding the song.
+- **Evaluation and fixes**: the song identification step was measured on its own with synthetic queries and TTS speech (not real-world accuracy). Whisper wrote 35% of Korean-accented Japanese as Korean; after adding a Japanese re-transcription and line-window voting, Korean-accented speech went **from 36% to 69%** and native five-line speech from 47% to 74%.
+- **Playlist text and architecture**: GPT-3.5 writes the playlist title and description from the found songs' summaries and tags, saved to the user's account via Spotify OAuth. The Hugging Face Space prototype was rebuilt as Angular 17 + FastAPI (deployment is a next step).
 
 ---
 
 ### 🚧 In Progress
 
 - **[A Japanese writing coach for Korean speakers](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · Sep 2026 –, solo  
-  The LLM only tags where each error is and what type it is, against a fixed taxonomy; quote checks, majority voting over three gradings and the counting all run in code.
+  A personal coach that says where Japanese writing went wrong and what fits the scene and the listener. The LLM only tags each error's position and type against a fixed taxonomy; quote checks, majority voting over three gradings and the counting run in code, and the reliability and detection rate of those tags are measured and published.
 - **[A cascading DLP layer with a local model as the gate](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · Sep 2026 –, solo  
   A local model reads each document before it reaches a cloud LLM and rules on it — pass, mask, ask the user, local only, or block. Built for documents mixing Korean, Japanese and English, and used as MCP tools.
 

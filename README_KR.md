@@ -1,8 +1,8 @@
-**🌐 Available Versions:** [🇺🇸 English](./README.md) | [🇰🇷 한국어](./README_KR.md) | [🇯🇵 日本語](./README_JP.md)
-
----
+<!-- 원본: README_KR.md (한국어판이 원본, 영·일은 번역) · 동기화: 2026-10-26 -->
 
 # 안녕하세요! 👋
+
+[English](README.md) · [한국어](README_KR.md) · [日本語](README_JP.md)
 
 맑은 하늘의 오카야마에서 소프트웨어 엔지니어로 근무하고 있는 **백지헌**입니다.
 
@@ -53,16 +53,16 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 #### 🧑‍🏫 [PhonemeJP2KR — 일본인 학습자를 위한 음소 단위 한국어 발음 코칭](https://github.com/fairyofdata/PhonemeJP2KR)
 > `Python` `Streamlit` `Whisper` `Wav2Vec2` `Gemini` `G2P`
 
-일본어 모어 화자가 한국어 발음을 교정할 수 있도록 설계된 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다. 우수상을 받은 팀 프로젝트 URFIT에서 맡은 음성 검색 모듈([Songfinder](https://github.com/fairyofdata/RAGSTT4Lyrics))에서 정립한 ASR(Whisper) 및 오디오 처리 파이프라인 기술을 확장하여, 한층 고도화된 음소 수준의 발음 진단 시스템으로 설계했습니다.
+일본어 모어 화자가 한국어 발음 오류를 음소 단위로 찾고 고치도록 돕는 CAPT(Computer-Assisted Pronunciation Training) 웹 애플리케이션입니다. 팀 프로젝트 URFIT 에서 맡은 음성 검색 모듈([RAGSTT4Lyrics](https://github.com/fairyofdata/RAGSTT4Lyrics))의 ASR(Whisper)·오디오 처리 파이프라인을 넓혀 만들었습니다.
 
-- **듀얼 ASR 아키텍처**: 언어모델이 내장된 Whisper(지능적 오류 보정)와 언어모델이 없는 Wav2Vec2-CTC(물리적 발성 포착)의 차이를 측정하여 학습자 스스로 인지하지 못하는 발음 오류를 수치화합니다.
-- **결정론적 G2P 엔진**: 표준발음법(7종성, 연음, 비음화, 격음화 등) 규칙을 순수 Python으로 직접 구현하여 LLM 환각을 원천 차단하고 동일 입력에 대해 항상 동일한 점수를 보장합니다.
-- **L1 간섭 오류 분류기**: 대조음운론 연구(장향실 2016 등)에 학술적 근거를 둔 규칙 기반 태거로, 일본어 모어 화자에게서 체계적으로 나타나는 모음 삽입, 받침 탈락, 3지대립 붕괴 등 6가지 오류 유형을 진단합니다. LLM(Gemini)은 진단된 구조화된 증거만을 받아 카타카나 시각화와 코칭 피드백만 담당합니다.
-- **실증 검증**: 실제 일본인 화자 음성(AI-Hub L2 코퍼스, 615개 발화·198명)에서 상/하 평가 판별 AUC 0.818, 사람 평가와의 상관 ρ = 0.473을 보이며 고전적 GOP 기준선을 모든 지표에서 앞섰습니다. 이 밖에 Spearman ρ = −0.702(점수-오류 심각도 상관), G2P 정확도 100%(51/51·17/17, held-out) 등 6가지 재현 가능한 실험으로 시스템 유효성을 검증했습니다.
+- **듀얼 ASR**: 언어모델이 내장된 Whisper(원어민이 알아듣는 쪽)와 언어모델이 없는 Wav2Vec2-CTC(실제로 낸 소리 쪽)의 차이를 재서, 학습자가 스스로 듣지 못하는 오류를 드러냅니다.
+- **결정적 G2P 엔진**: 표준발음법(7종성, 연음, 비음화, 격음화 등)을 순수 Python 규칙으로 구현해, 같은 입력에는 항상 같은 점수가 나옵니다.
+- **L1 간섭 오류 분류기**: 대조음운론 연구(장향실 2016 등)에 근거한 규칙 기반 태거로, 모음 삽입·받침 탈락·평음/격음/경음 혼동 등 일본어 화자에게 체계적으로 나타나는 9가지 오류를 진단합니다. 가타카나 표기도 규칙표로 만들고, LLM(Gemini)은 구조화된 증거를 받아 코칭 문장만 씁니다.
+- **실증 검증**: 실제 일본인 화자 음성(AI-Hub L2 코퍼스, 615개 발화·198명)에서 상/하 평가 판별 AUC 0.818, 사람 평가와의 상관 ρ = 0.473 으로 고전적 GOP 기준선을 모든 지표에서 앞섰습니다. 점수와 오류 심각도의 상관은 ρ = −0.702(음성을 다시 합성한 재실행에서는 −0.599, 둘 다 기록), G2P 정확도는 held-out 100%(51/51·17/17)입니다. 실험 6종을 실행했고, 모집 평정자와의 상관 연구는 설계만 마쳤습니다.
 
 ---
 
-#### 📊 [PortfolioOpt4ESG — LLM 기반 ESG 중심 포트폴리오 최적화 서비스](https://github.com/fairyofdata/PortfolioOpt4ESG)
+#### 📊 [PortfolioOpt4ESG — LLM 기반 ESG 중심 포트폴리오 최적화 (LEPOS)](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 광운대학교 제8회 산학협력 SW 프로젝트 **우수상** · 정보융합학과 졸업전시회 **우수상**  
@@ -71,29 +71,29 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 한국 상장 기업의 뉴스 텍스트를 LLM 및 파인튜닝 모델로 직접 분석하여 투명한 ESG 점수를 산출하고, 이를 Black-Litterman 모델의 투자자 뷰로 반영해 맞춤형 포트폴리오를 구성하는 연구/서비스 시스템입니다.
 
 - **데이터 파이프라인**: KOSPI 68개사의 뉴스 **138만 건**을 수집하고, GPT-3.5로 라벨 부트스트래핑 후 KoELECTRA를 파인튜닝해 6단계 분류/회귀 모델 캐스케이드를 구축했습니다.
-- **포트폴리오 최적화**: 사용자 설문(15문항)이 E/S/G 선호를 에이전시별 방법론 가중치로 변환되며, 이를 Black-Litterman 뷰(P, Q)로 주입 후 Ledoit-Wolf shrinkage 공분산 기반 최대 샤프 비율 최적화를 수행합니다.
-- **백테스팅**: 2020~2024년 연간 리밸런싱 기준으로 KOSPI(Sharpe 0.190), ESG ETF(0.251) 대비 **최적화한 ESG 포트폴리오(0.499, 최대 낙폭 0.187)**가 모든 지표에서 우세함을 증명했습니다.
+- **포트폴리오 최적화**: 사용자 설문(15문항)을 E/S/G 선호와 평가기관별 방법론 가중치로 바꾸고, 이를 Black-Litterman 뷰(P, Q)로 넣은 뒤 Ledoit-Wolf shrinkage 공분산 기반 최대 샤프 비율 최적화를 합니다.
+- **백테스팅**: 2020~2024년 연간 리밸런싱에서 **최적화한 ESG 포트폴리오(Sharpe 0.499, 최대 낙폭 0.187)**가 KOSPI(0.190)·ESG ETF(0.251)를 모든 지표에서 앞섰습니다 (저장소의 재현 결과. 생존 편향, 표본 안에서 고른 τ 등 한계는 저장소 README 에 적었습니다).
 
 ---
 
-#### 🎵 [Songfinder — 음성으로 찾는 J-POP 검색과 플레이리스트 생성](https://github.com/fairyofdata/RAGSTT4Lyrics)
+#### 🎵 [RAGSTT4Lyrics — 흐릿하게 기억나는 가사로 J-POP 찾기 (Songfinder)](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 한국무역협회 SCIT Master 47기 프로젝트 발표회 **우수상**(6인 팀 프로젝트 URFIT으로 수상)  
-👤 URFIT 중 음성·음악 매칭 파트(STT → FAISS 검색 → 추천 → Spotify 플레이리스트)를 혼자 구현했고, 2026년 리팩토링도 혼자 진행했습니다.
+👤 URFIT 중 음성·음악 매칭 파트(STT → FAISS 검색 → 추천 → Spotify 플레이리스트)를 혼자 구현했고, 2026년 리팩토링과 성능 평가도 혼자 진행했습니다.
 
-"대충 아는 가사"나 흥얼거림만으로 원하는 J-POP을 찾고, AI가 취향 기반 유사 곡 추천 및 Spotify 플레이리스트를 자동 생성해주는 커뮤니티 서비스입니다.
+부정확하게 기억나는 가사를 말하거나 입력하면 J-POP 곡을 찾아 주고, 비슷한 곡을 추천해 Spotify 플레이리스트로 만들어 주는 서비스입니다. 가사 없는 콧노래로는 찾지 않습니다.
 
-- **멀티모달 검색**: Whisper(STT)로 음성을 텍스트로 변환 후, SentenceTransformer 임베딩과 FAISS 인덱스로 가사 데이터셋을 벡터 유사도 검색합니다.
-- **AI 플레이리스트 생성**: 검색 결과를 GPT-3.5가 분석해 창의적인 플레이리스트 제목/설명을 자동 생성하고, Spotify OAuth API로 사용자 계정에 직접 저장합니다.
-- **아키텍처 리팩토링**: Hugging Face Space 기반 프로토타입을 Angular 17+(Frontend) + FastAPI(Backend) 마이크로서비스 아키텍처로 완전 분리하여 Firebase, Cloud Run 등 다양한 클라우드 환경 배포에 대응했습니다.
+- **음성 검색**: Whisper(STT)로 받아 적은 가사를 SentenceTransformer 임베딩과 FAISS 로 검색합니다. 곡을 찾는 단계에는 LLM 을 쓰지 않습니다.
+- **평가와 개선**: 곡 식별 단계만 떼어 합성 질의·TTS 음성으로 쟀습니다(실사용 정확도는 아님). 한국인 발음 음성은 Whisper 가 35% 를 한국어로 받아 적는 문제를 찾아, 일본어 재전사와 줄 단위 조각 투표를 넣은 뒤 **36% → 69%**, 원어민 5줄 음성은 47% → 74% 가 됐습니다.
+- **플레이리스트 문구와 구조**: 검색된 곡의 요약·태그로 GPT-3.5 가 플레이리스트 제목·설명을 쓰고, Spotify OAuth 로 계정에 저장합니다. Hugging Face Space 프로토타입을 Angular 17 + FastAPI 로 나눠 다시 만들었습니다(배포는 다음 단계).
 
 ---
 
 ### 🚧 개발 중
 
 - **[한국어 화자를 위한 일본어 작문 코치](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · 2026.09 – · 개인  
-  고정된 오류 분류표 안에서 LLM은 오류의 위치와 유형만 붙이고, 인용 원문 대조·3회 채점 다수결·집계는 모두 코드가 합니다.
+  일본어 글이 어디가 틀렸고 그 장면·상대에게 무엇이 적절한지 알려주는 개인용 코치입니다. LLM은 고정된 오류 분류표 안에서 위치와 유형만 붙이고, 인용 원문 대조·3회 채점 다수결·집계는 코드가 하며, 그 주석의 재현성과 탐지율을 재서 공개합니다.
 - **[로컬 모델이 관문을 서는 캐스케이딩 DLP 레이어](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · 2026.09 – · 개인  
   문서를 클라우드 LLM에 넘기기 전에 로컬 모델이 먼저 읽고 「통과·가려서 전송·사용자 확인·로컬 전용·차단」 중 하나로 판정합니다. 한·일·영 혼용 문서가 대상이며 MCP 도구로 씁니다.
 
