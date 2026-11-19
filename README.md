@@ -95,8 +95,6 @@ Say or type lyrics you half remember and it finds the J-POP song, recommends sim
 
 - **[A Japanese writing coach for Korean speakers](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · Sep 2026 –, solo  
   A personal coach that says where Japanese writing went wrong and what fits the scene and the listener. The LLM only tags each error's position and type against a fixed taxonomy; quote checks, majority voting over three gradings and the counting run in code, and the reliability and detection rate of those tags are measured and published.
-- **[A cascading DLP layer with a local model as the gate](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · Sep 2026 –, solo  
-  A local model reads each document before it reaches a cloud LLM and rules on it — pass, mask, ask the user, local only, or block. Built for documents mixing Korean, Japanese and English, and used as MCP tools.
 
 ---
 

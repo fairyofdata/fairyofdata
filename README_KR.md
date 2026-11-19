@@ -94,8 +94,6 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 - **[한국어 화자를 위한 일본어 작문 코치](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · 2026.09 – · 개인  
   일본어 글이 어디가 틀렸고 그 장면·상대에게 무엇이 적절한지 알려주는 개인용 코치입니다. LLM은 고정된 오류 분류표 안에서 위치와 유형만 붙이고, 인용 원문 대조·3회 채점 다수결·집계는 코드가 하며, 그 주석의 재현성과 탐지율을 재서 공개합니다.
-- **[로컬 모델이 관문을 서는 캐스케이딩 DLP 레이어](https://github.com/fairyofdata/CascadeDLP)** · `CascadeDLP` · 2026.09 – · 개인  
-  문서를 클라우드 LLM에 넘기기 전에 로컬 모델이 먼저 읽고 「통과·가려서 전송·사용자 확인·로컬 전용·차단」 중 하나로 판정합니다. 한·일·영 혼용 문서가 대상이며 MCP 도구로 씁니다.
 
 ---
 
