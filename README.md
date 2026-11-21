@@ -58,7 +58,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application that helps Jap
 - **Dual ASR**: measures the gap between Whisper (strong internal LM — what a native listener understands) and Wav2Vec2-CTC (no LM — what was actually said) to surface errors learners cannot hear in themselves.
 - **Deterministic G2P engine**: Standard Korean pronunciation rules (7-coda neutralization, liaison, nasalization, aspiration, etc.) as pure-Python rules, so the same input always gets the same score.
 - **L1 interference classifier**: a rule-based tagger grounded in contrastive phonology (Jang 2016, etc.) that diagnoses 9 error types typical of Japanese speakers (vowel epenthesis, coda deletion, lenis/aspirated/tense confusion, etc.). The katakana view also comes from a fixed rule table; the LLM (Gemini) receives structured evidence and writes only the coaching text.
-- **Empirical validation**: on real Japanese-accented speech (AI-Hub L2 corpus, 615 clips / 198 speakers) — AUC 0.818 separating high- vs low-rated speech and ρ = 0.473 vs human ratings, ahead of the classic GOP baseline on every axis. Score vs. error severity: ρ = −0.702 (−0.599 in a re-run with re-synthesized audio; both are kept). G2P accuracy 100% on held-out rules (51/51 context-free, 17/17 morphology-conditioned). Seven experiments have been run; a recruited-rater study is designed but not yet run.
+- **Empirical validation**: on real Japanese-accented speech (AI-Hub L2 corpus, 615 clips / 198 speakers) — AUC 0.818 separating high- vs low-rated speech and ρ = 0.473 vs human ratings, ahead of the classic GOP baseline on every axis. Score vs. error severity: ρ = −0.702 (−0.599 in a re-run with re-synthesized audio; both are kept). The G2P engine matches the Standard Korean Dictionary pronunciation on **96.0%** of learner vocabulary drawn without the engine in view (144/150, 95% CI 91.5–98.2%) — the accuracy of the reference-pronunciation engine, not of the learner assessment. Eight experiments have been run; a recruited-rater study is designed but not yet run.
 
 ---
 
@@ -77,6 +77,18 @@ A research-grade system that derives transparent ESG scores directly from news t
 
 ---
 
+#### ✍️ [PragmaticsKR2JP — A Japanese Writing Coach for Korean Speakers](https://github.com/fairyofdata/PragmaticsKR2JP)
+> `Python` `Streamlit` `OpenAI API` `Gemini API` `Structured Output`
+
+Sep 2026 –, solo · in progress
+
+A personal coach that says where Japanese writing went wrong and what fits the scene and the listener.
+
+- **LLM as annotator, code as judge**: the LLM only tags each error's position and type against a fixed taxonomy; quote checks against the original, detection of untagged edits, majority voting over three gradings and all counting run in code.
+- **Measured, not assumed**: rules that the prompt asked for and the model did not keep were found by experiment and moved into code checks. On an evaluation set with planted errors (written by an LLM, not native gold), grammar mode found every error span (recall 1.00) in all three conditions; a codebook prompt with type definitions raised type accuracy from 0.49 to 0.71 and cut tags on error-free answers from 1.17 to 0.33.
+
+---
+
 #### 🎵 [RAGSTT4Lyrics — Find a J-POP Song from Half-Remembered Lyrics (Songfinder)](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
@@ -88,13 +100,6 @@ Say or type lyrics you half remember and it finds the J-POP song, recommends sim
 - **Voice search**: lyrics transcribed by Whisper (STT) are searched with SentenceTransformer embeddings and FAISS. No LLM is involved in finding the song.
 - **Evaluation and fixes**: the song identification step was measured on its own with synthetic queries and TTS speech (not real-world accuracy). Whisper wrote 35% of Korean-accented Japanese as Korean; after adding a Japanese re-transcription and line-window voting, Korean-accented speech went **from 36% to 69%** and native five-line speech from 47% to 74%.
 - **Playlist text and architecture**: GPT-3.5 writes the playlist title and description from the found songs' summaries and tags, saved to the user's account via Spotify OAuth. The Hugging Face Space prototype was rebuilt as Angular 17 + FastAPI (deployment is a next step).
-
----
-
-### 🚧 In Progress
-
-- **[A Japanese writing coach for Korean speakers](https://github.com/fairyofdata/PragmaticsKR2JP)** · `PragmaticsKR2JP` · Sep 2026 –, solo  
-  A personal coach that says where Japanese writing went wrong and what fits the scene and the listener. The LLM only tags each error's position and type against a fixed taxonomy; quote checks, majority voting over three gradings and the counting run in code, and the reliability and detection rate of those tags are measured and published.
 
 ---
 
