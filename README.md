@@ -19,7 +19,7 @@ Currently deepening my expertise in **production-grade LLM architectures**, **do
 ## 🎯 Focus
 
 - 🤖 LLM applications & AI engineering
-- 📏 Reproducible evaluation of ML and LLM systems
+- 📏 Measuring how much an LLM's output wavers and errs, then deciding what to hand it and how to hold it steady
 - 💬 NLP & document-centric information extraction
 - ⚙️ MLOps & production-grade AI systems
 

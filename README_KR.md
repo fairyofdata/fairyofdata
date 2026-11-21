@@ -19,7 +19,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 ## 🎯 Focus
 
 - 🤖 LLM 애플리케이션과 AI 엔지니어링
-- 📏 머신러닝·LLM 시스템의 재현 가능한 평가
+- 📏 LLM 출력의 흔들림과 오류를 먼저 재고, 맡길 범위와 누를 방법을 정하는 평가
 - 💬 자연어 처리와 문서 정보 추출
 - ⚙️ MLOps와 실운영에 견디는 AI 시스템
 
