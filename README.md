@@ -89,7 +89,7 @@ A personal coach that says where Japanese writing went wrong and what fits the s
 
 ---
 
-#### 🎵 [RAGSTT4Lyrics — Find a J-POP Song from Half-Remembered Lyrics (Songfinder)](https://github.com/fairyofdata/RAGSTT4Lyrics)
+#### 🎵 [RAGSTT4Lyrics — Find a J-POP Song from Half-Remembered Lyrics](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 Excellence Award (team) — KITA SCIT Master 47th Cohort Project Presentation, for the 6-person team project URFIT  

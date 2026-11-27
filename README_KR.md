@@ -88,7 +88,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ---
 
-#### 🎵 [RAGSTT4Lyrics — 흐릿하게 기억나는 가사로 J-POP 찾기 (Songfinder)](https://github.com/fairyofdata/RAGSTT4Lyrics)
+#### 🎵 [RAGSTT4Lyrics — 흐릿하게 기억나는 가사로 J-POP 찾기](https://github.com/fairyofdata/RAGSTT4Lyrics)
 > `Python` `FastAPI` `Angular` `Whisper` `FAISS` `SentenceTransformer` `Spotify API`
 
 🏆 한국무역협회 SCIT Master 47기 프로젝트 발표회 **우수상**(6인 팀 프로젝트 URFIT으로 수상)  
