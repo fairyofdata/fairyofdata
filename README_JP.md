@@ -62,7 +62,7 @@ LLMアプリケーション、自然言語処理（NLP）、AIエンジニアリ
 
 ---
 
-#### 📊 [PortfolioOpt4ESG — LLMベースのESG重視ポートフォリオ最適化 (LEPOS)](https://github.com/fairyofdata/PortfolioOpt4ESG)
+#### 📊 [PortfolioOpt4ESG — LLMベースのESG重視ポートフォリオ最適化](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 光云大学 第8回 産学協力SWプロジェクト **優秀賞** · 情報融合学科 卒業展示会 **優秀賞**  

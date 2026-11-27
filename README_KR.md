@@ -62,7 +62,7 @@ LLM Application, Natural Language Processing(NLP), AI Engineering, 워크플로�
 
 ---
 
-#### 📊 [PortfolioOpt4ESG — LLM 기반 ESG 중심 포트폴리오 최적화 (LEPOS)](https://github.com/fairyofdata/PortfolioOpt4ESG)
+#### 📊 [PortfolioOpt4ESG — LLM 기반 ESG 중심 포트폴리오 최적화](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 광운대학교 제8회 산학협력 SW 프로젝트 **우수상** · 정보융합학과 졸업전시회 **우수상**  

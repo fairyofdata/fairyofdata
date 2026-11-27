@@ -62,7 +62,7 @@ A CAPT (Computer-Assisted Pronunciation Training) web application that helps Jap
 
 ---
 
-#### 📊 [PortfolioOpt4ESG — LLM-based ESG-Focused Portfolio Optimization (LEPOS)](https://github.com/fairyofdata/PortfolioOpt4ESG)
+#### 📊 [PortfolioOpt4ESG — LLM-based ESG-Focused Portfolio Optimization](https://github.com/fairyofdata/PortfolioOpt4ESG)
 > `Python` `Streamlit` `KoELECTRA` `GPT-3.5` `Black-Litterman` `KOSPI`
 
 🏆 Excellence Award — 8th Industry-Academia SW Project Exhibition, Kwangwoon University  
