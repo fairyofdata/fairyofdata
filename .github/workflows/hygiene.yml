@@ -1,0 +1,15 @@
+# Public-repository hygiene check. There is no test suite here, so this is the only job.
+# The steps come from the shared reusable workflow in fairyofdata/Concordia.
+name: hygiene
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  hygiene:
+    uses: fairyofdata/Concordia/.github/workflows/hygiene.yml@v1
